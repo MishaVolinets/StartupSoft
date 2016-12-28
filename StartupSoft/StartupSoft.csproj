@@ -285,6 +285,7 @@
     <Content Include="Content\styles_sass\var.scss" />
     <Content Include="Content\styles_sass\about_us.scss" />
     <Content Include="Content\styles_sass\modal.scss" />
+    <Content Include="ClassDiagram1.cd" />
     <None Include="Scripts\jquery-2.2.0.intellisense.js" />
     <Content Include="Scripts\checkLength.js" />
     <Content Include="Scripts\jquery-2.2.0.js" />
