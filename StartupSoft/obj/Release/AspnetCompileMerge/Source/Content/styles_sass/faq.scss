@@ -1,0 +1,51 @@
+﻿@import "var.scss";
+@import "font.scss";
+
+.faq{
+  min-height: calc(100vh - 455px);
+}
+.faq-content {
+    display: table;
+    margin: 0 auto 80px;
+    padding: 0 28%;
+}
+
+.faq-tittle {
+    font-size: 18px;
+    font-family: 'MuseoSansBold';
+    color: #1C1C1C;
+    display: inline-block;
+    margin-bottom: 5px;
+    white-space: nowrap;
+}
+
+.faq-item {
+    display: inline-block;
+    margin-bottom: 50px;
+}
+
+.text-text {
+    color: #1C1C1C;
+    line-height: 20px;
+    font-size: 16px;
+    color: #777;
+}
+
+
+@media (max-width: 991px) {
+    .faq-tittle {
+        white-space: normal;
+    }
+
+    .faq-content {
+        padding:0 80px;
+        width: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    .faq-content {
+        padding:0 50px;
+        width: 100%;
+    }
+}

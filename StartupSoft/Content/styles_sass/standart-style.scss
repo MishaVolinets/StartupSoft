@@ -1,0 +1,127 @@
+﻿@import "var.scss";
+@import "font.scss";
+
+header, section, footer {
+  position: relative;
+}
+
+.container, .height-for-all-block {
+  height: 100%;
+}
+
+.margin-right {
+  margin-right: 10px;
+}
+
+.float-l {
+  float: left;
+}
+
+.float-r {
+  float: right;
+}
+
+.left-padding {
+  padding-left: 80px;
+}
+
+.right-padding {
+  padding-right: 80px;
+}
+
+.display-none {
+  display: none;
+}
+
+/*----------------general-button-style-----------------*/
+
+.general-button {
+  background-color: #4094ed;
+  color: #fff;
+  width: 360px;
+  height: 70px;
+  border-radius: 35px;
+  font-size: 16px;
+  border: none;
+  display: block;
+  outline: none;
+  overflow: hidden;
+  position: relative;
+  font-family: MuseoSansBold;
+  &:hover {
+    cursor: pointer;
+    box-shadow: inset 0 0 40px 2px rgba(0, 0, 0, 0.3);
+    transition: 0.5s;
+  }
+}
+
+.dark-hover-shadow:hover {
+  opacity: 0.7;
+  box-shadow: none;
+}
+
+.active {
+  background-color: #4094ed !important;
+  transition: 0.8s;
+}
+
+.bottom-clear-wall {
+  clear: both;
+}
+
+.align-right {
+  text-align: right;
+}
+
+.align-left {
+  text-align: left;
+}
+
+.align-center {
+  text-align: center;
+}
+
+.step-number-margin-left{
+  margin-left: 20px;
+}
+.step-number-margin-right{
+  margin-right: 20px;
+}
+
+/*---------------blue-indicator---------------------*/
+
+.step-blue-indicator {
+  position: absolute;
+  left: 50%;
+  height: 23px;
+  width: 23px;
+  border: 2px solid #4094ed;
+  border-radius: 50%;
+  margin-left: -10px;
+  background-color: #ffffff;
+  top: 50%;
+}
+
+/*------------hover-efect--------------------------------*/
+
+.underline {
+  position: relative;
+  cursor: pointer;
+  &:after {
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    width: 0;
+    height: 2px;
+    background-color: #4094ed;
+    content: "";
+    transition: width 0.2s;
+  }
+  &:hover {
+    color: #4094ed;
+    &:after {
+      width: 100%;
+    }
+  }
+}

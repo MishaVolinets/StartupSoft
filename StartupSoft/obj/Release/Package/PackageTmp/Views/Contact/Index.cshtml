@@ -1,0 +1,87 @@
+﻿<nav class="navbar navbar-default white-navbar" role="navigation">
+    <div class="container">
+        <!-- Бренд та перемикач згруповані для кращого відображення на мобільних пристроях -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#white_navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/">
+                <img class="logo" src="Content/img/Logo.png" />
+            </a>
+        </div>
+
+        <!-- Зібрано навігаційні лінки, форми, та інший вміст для переключення -->
+        <div class="collapse navbar-collapse" id="white_navbar">
+            <ul class="nav navbar-nav navbar-text white-navbar-menu">
+                <li><a href="/" class="underline">HOME</a></li>
+                <li><a href="/about" class="underline">ABOUT</a></li>
+                <li><a href="/faq" class="underline">FAQ</a></li>
+                <li><a href="/contact" class="underline">CONTACT US</a></li>
+            </ul>
+
+        </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+</nav>
+<section class="contact-us">
+    <div class="container">
+        <div class="row">
+            <h1 class="center-tittle">CONTACT US</h1>
+        </div>
+        <div class="row">
+            <div class="contact-us-content">
+                <form action="/email/send">
+                    <input type="hidden" name="FromApply" value="false" />
+                    <div class="row">
+                        <div class="col-md-6 input-block-padding-right">
+                            <input type="text" name="Firstname" placeholder="First name" autofocus required />
+                        </div>
+                        <div class="col-md-6 input-block-padding-left">
+                            <input type="text" name="Lastname" placeholder="Last name" required />
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <input type="email" name="Email" placeholder="Email" required />
+
+                        </div>
+                        <div class="col-md-12">
+                            <dic class="contact-us-textarea">
+                                <textarea placeholder="Massage" name="Description" required></textarea>
+                                <span id="massageLength">1000</span>
+                            </dic>
+                        </div>
+                        <div class="col-md-12">
+                            <button type="submit" class="btn white-btn">
+                                SUBMIT
+                            </button>
+                        </div>
+
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+<div class="modal apply-modal fade" id="applyModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content apply-modal-content">
+            <div class="modal-header apply-modal-header">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                <br />
+                <h4 class="modal-title apply-modal-tittle" id="myModalLabel">THANKS FOR GETTING IN TOUCH! CAN'T WAIT TO GET STARTED</h4>
+            </div>
+            <div class="modal-body apply-modal-text">
+                One of our Designers or Developers will get back to you soon to hear more about your project and how we can help.
+                While you wait, we'd love for you to take a look through our Playbook, it details how we make successful web and mobile prooducts.
+            </div>
+            <div class="modal-footer apply-modal-footer">
+                <form action="/">
+                    <button type="submit" type="button" class="btn blue-button apply-modal-button">Go to home</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

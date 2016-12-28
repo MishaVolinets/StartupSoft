@@ -1,0 +1,159 @@
+C:\Users\hisha\onedrive\документы\visual studio 2015\Projects\StartupSoft\StartupSoft\bin\ApplicationInsights.config
+C:\Users\hisha\onedrive\документы\visual studio 2015\Projects\StartupSoft\StartupSoft\bin\roslyn\csc.exe
+C:\Users\hisha\onedrive\документы\visual studio 2015\Projects\StartupSoft\StartupSoft\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\hisha\onedrive\документы\visual studio 2015\Projects\StartupSoft\StartupSoft\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\hisha\onedrive\документы\visual studio 2015\Projects\StartupSoft\StartupSoft\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\hisha\onedrive\документы\visual studio 2015\Projects\StartupSoft\StartupSoft\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\hisha\onedrive\документы\visual studio 2015\Projects\StartupSoft\StartupSoft\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\hisha\onedrive\документы\visual studio 2015\Projects\StartupSoft\StartupSoft\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\hisha\onedrive\документы\visual studio 2015\Projects\StartupSoft\StartupSoft\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\hisha\onedrive\документы\visual studio 2015\Projects\StartupSoft\StartupSoft\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\hisha\onedrive\документы\visual studio 2015\Projects\StartupSoft\StartupSoft\bin\roslyn\vbc.exe
+C:\Users\hisha\onedrive\документы\visual studio 2015\Projects\StartupSoft\StartupSoft\bin\roslyn\VBCSCompiler.exe
+C:\Users\hisha\onedrive\документы\visual studio 2015\Projects\StartupSoft\StartupSoft\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\hisha\onedrive\документы\visual studio 2015\Projects\StartupSoft\StartupSoft\bin\StartupSoft.dll.config
+C:\Users\hisha\onedrive\документы\visual studio 2015\Projects\StartupSoft\StartupSoft\bin\StartupSoft.dll
+C:\Users\hisha\onedrive\документы\visual studio 2015\Projects\StartupSoft\StartupSoft\bin\StartupSoft.pdb
+C:\Users\hisha\onedrive\документы\visual studio 2015\Projects\StartupSoft\StartupSoft\bin\Antlr3.Runtime.dll
+C:\Users\hisha\onedrive\документы\visual studio 2015\Projects\StartupSoft\StartupSoft\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\hisha\onedrive\документы\visual studio 2015\Projects\StartupSoft\StartupSoft\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\hisha\onedrive\документы\visual studio 2015\Projects\StartupSoft\StartupSoft\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\hisha\onedrive\документы\visual studio 2015\Projects\StartupSoft\StartupSoft\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\hisha\onedrive\документы\visual studio 2015\Projects\StartupSoft\StartupSoft\bin\Microsoft.AI.Web.dll
+C:\Users\hisha\onedrive\документы\visual studio 2015\Projects\StartupSoft\StartupSoft\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\hisha\onedrive\документы\visual studio 2015\Projects\StartupSoft\StartupSoft\bin\Microsoft.ApplicationInsights.dll
+C:\Users\hisha\onedrive\документы\visual studio 2015\Projects\StartupSoft\StartupSoft\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\hisha\onedrive\документы\visual studio 2015\Projects\StartupSoft\StartupSoft\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\hisha\onedrive\документы\visual studio 2015\Projects\StartupSoft\StartupSoft\bin\Newtonsoft.Json.dll
+C:\Users\hisha\onedrive\документы\visual studio 2015\Projects\StartupSoft\StartupSoft\bin\System.Web.Helpers.dll
+C:\Users\hisha\onedrive\документы\visual studio 2015\Projects\StartupSoft\StartupSoft\bin\System.Web.Mvc.dll
+C:\Users\hisha\onedrive\документы\visual studio 2015\Projects\StartupSoft\StartupSoft\bin\System.Web.Optimization.dll
+C:\Users\hisha\onedrive\документы\visual studio 2015\Projects\StartupSoft\StartupSoft\bin\System.Web.Razor.dll
+C:\Users\hisha\onedrive\документы\visual studio 2015\Projects\StartupSoft\StartupSoft\bin\System.Web.WebPages.Deployment.dll
+C:\Users\hisha\onedrive\документы\visual studio 2015\Projects\StartupSoft\StartupSoft\bin\System.Web.WebPages.dll
+C:\Users\hisha\onedrive\документы\visual studio 2015\Projects\StartupSoft\StartupSoft\bin\System.Web.WebPages.Razor.dll
+C:\Users\hisha\onedrive\документы\visual studio 2015\Projects\StartupSoft\StartupSoft\bin\WebGrease.dll
+C:\Users\hisha\onedrive\документы\visual studio 2015\Projects\StartupSoft\StartupSoft\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\hisha\onedrive\документы\visual studio 2015\Projects\StartupSoft\StartupSoft\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\hisha\onedrive\документы\visual studio 2015\Projects\StartupSoft\StartupSoft\bin\Microsoft.AI.Web.xml
+C:\Users\hisha\onedrive\документы\visual studio 2015\Projects\StartupSoft\StartupSoft\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\hisha\onedrive\документы\visual studio 2015\Projects\StartupSoft\StartupSoft\bin\Microsoft.ApplicationInsights.xml
+C:\Users\hisha\onedrive\документы\visual studio 2015\Projects\StartupSoft\StartupSoft\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\hisha\onedrive\документы\visual studio 2015\Projects\StartupSoft\StartupSoft\bin\System.Web.Helpers.xml
+C:\Users\hisha\onedrive\документы\visual studio 2015\Projects\StartupSoft\StartupSoft\bin\System.Web.Mvc.xml
+C:\Users\hisha\onedrive\документы\visual studio 2015\Projects\StartupSoft\StartupSoft\bin\System.Web.Optimization.xml
+C:\Users\hisha\onedrive\документы\visual studio 2015\Projects\StartupSoft\StartupSoft\bin\System.Web.Razor.xml
+C:\Users\hisha\onedrive\документы\visual studio 2015\Projects\StartupSoft\StartupSoft\bin\System.Web.WebPages.xml
+C:\Users\hisha\onedrive\документы\visual studio 2015\Projects\StartupSoft\StartupSoft\bin\System.Web.WebPages.Deployment.xml
+C:\Users\hisha\onedrive\документы\visual studio 2015\Projects\StartupSoft\StartupSoft\bin\System.Web.WebPages.Razor.xml
+C:\Users\hisha\onedrive\документы\visual studio 2015\Projects\StartupSoft\StartupSoft\bin\Antlr3.Runtime.pdb
+C:\Users\hisha\onedrive\документы\visual studio 2015\Projects\StartupSoft\StartupSoft\bin\Newtonsoft.Json.xml
+C:\Users\hisha\onedrive\документы\visual studio 2015\Projects\StartupSoft\StartupSoft\obj\Release\StartupSoft.dll
+C:\Users\hisha\onedrive\документы\visual studio 2015\Projects\StartupSoft\StartupSoft\obj\Release\StartupSoft.pdb
+C:\Users\hisha\onedrive\документы\visual studio 2015\Projects\StartupSoft\StartupSoft\obj\Release\StartupSoft.csprojResolveAssemblyReference.cache
+D:\Sturtup\back-end projects\StartupSoft\StartupSoft\bin\ApplicationInsights.config
+D:\Sturtup\back-end projects\StartupSoft\StartupSoft\bin\roslyn\csc.exe
+D:\Sturtup\back-end projects\StartupSoft\StartupSoft\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Sturtup\back-end projects\StartupSoft\StartupSoft\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Sturtup\back-end projects\StartupSoft\StartupSoft\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Sturtup\back-end projects\StartupSoft\StartupSoft\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Sturtup\back-end projects\StartupSoft\StartupSoft\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Sturtup\back-end projects\StartupSoft\StartupSoft\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Sturtup\back-end projects\StartupSoft\StartupSoft\bin\roslyn\System.Collections.Immutable.dll
+D:\Sturtup\back-end projects\StartupSoft\StartupSoft\bin\roslyn\System.Reflection.Metadata.dll
+D:\Sturtup\back-end projects\StartupSoft\StartupSoft\bin\roslyn\vbc.exe
+D:\Sturtup\back-end projects\StartupSoft\StartupSoft\bin\roslyn\VBCSCompiler.exe
+D:\Sturtup\back-end projects\StartupSoft\StartupSoft\bin\roslyn\VBCSCompiler.exe.config
+D:\Sturtup\back-end projects\StartupSoft\StartupSoft\bin\StartupSoft.dll.config
+D:\Sturtup\back-end projects\StartupSoft\StartupSoft\bin\StartupSoft.dll
+D:\Sturtup\back-end projects\StartupSoft\StartupSoft\bin\StartupSoft.pdb
+D:\Sturtup\back-end projects\StartupSoft\StartupSoft\bin\Antlr3.Runtime.dll
+D:\Sturtup\back-end projects\StartupSoft\StartupSoft\bin\Microsoft.AI.Agent.Intercept.dll
+D:\Sturtup\back-end projects\StartupSoft\StartupSoft\bin\Microsoft.AI.DependencyCollector.dll
+D:\Sturtup\back-end projects\StartupSoft\StartupSoft\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\Sturtup\back-end projects\StartupSoft\StartupSoft\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\Sturtup\back-end projects\StartupSoft\StartupSoft\bin\Microsoft.AI.Web.dll
+D:\Sturtup\back-end projects\StartupSoft\StartupSoft\bin\Microsoft.AI.WindowsServer.dll
+D:\Sturtup\back-end projects\StartupSoft\StartupSoft\bin\Microsoft.ApplicationInsights.dll
+D:\Sturtup\back-end projects\StartupSoft\StartupSoft\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Sturtup\back-end projects\StartupSoft\StartupSoft\bin\Microsoft.Web.Infrastructure.dll
+D:\Sturtup\back-end projects\StartupSoft\StartupSoft\bin\Newtonsoft.Json.dll
+D:\Sturtup\back-end projects\StartupSoft\StartupSoft\bin\System.Web.Helpers.dll
+D:\Sturtup\back-end projects\StartupSoft\StartupSoft\bin\System.Web.Mvc.dll
+D:\Sturtup\back-end projects\StartupSoft\StartupSoft\bin\System.Web.Optimization.dll
+D:\Sturtup\back-end projects\StartupSoft\StartupSoft\bin\System.Web.Razor.dll
+D:\Sturtup\back-end projects\StartupSoft\StartupSoft\bin\System.Web.WebPages.Deployment.dll
+D:\Sturtup\back-end projects\StartupSoft\StartupSoft\bin\System.Web.WebPages.dll
+D:\Sturtup\back-end projects\StartupSoft\StartupSoft\bin\System.Web.WebPages.Razor.dll
+D:\Sturtup\back-end projects\StartupSoft\StartupSoft\bin\WebGrease.dll
+D:\Sturtup\back-end projects\StartupSoft\StartupSoft\bin\Microsoft.AI.DependencyCollector.xml
+D:\Sturtup\back-end projects\StartupSoft\StartupSoft\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\Sturtup\back-end projects\StartupSoft\StartupSoft\bin\Microsoft.AI.Web.xml
+D:\Sturtup\back-end projects\StartupSoft\StartupSoft\bin\Microsoft.AI.WindowsServer.xml
+D:\Sturtup\back-end projects\StartupSoft\StartupSoft\bin\Microsoft.ApplicationInsights.xml
+D:\Sturtup\back-end projects\StartupSoft\StartupSoft\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Sturtup\back-end projects\StartupSoft\StartupSoft\bin\System.Web.Helpers.xml
+D:\Sturtup\back-end projects\StartupSoft\StartupSoft\bin\System.Web.Mvc.xml
+D:\Sturtup\back-end projects\StartupSoft\StartupSoft\bin\System.Web.Optimization.xml
+D:\Sturtup\back-end projects\StartupSoft\StartupSoft\bin\System.Web.Razor.xml
+D:\Sturtup\back-end projects\StartupSoft\StartupSoft\bin\System.Web.WebPages.xml
+D:\Sturtup\back-end projects\StartupSoft\StartupSoft\bin\System.Web.WebPages.Deployment.xml
+D:\Sturtup\back-end projects\StartupSoft\StartupSoft\bin\System.Web.WebPages.Razor.xml
+D:\Sturtup\back-end projects\StartupSoft\StartupSoft\bin\Antlr3.Runtime.pdb
+D:\Sturtup\back-end projects\StartupSoft\StartupSoft\bin\Newtonsoft.Json.xml
+D:\Sturtup\back-end projects\StartupSoft\StartupSoft\obj\Release\StartupSoft.csprojResolveAssemblyReference.cache
+D:\Sturtup\back-end projects\StartupSoft\StartupSoft\obj\Release\StartupSoft.dll
+D:\Sturtup\back-end projects\StartupSoft\StartupSoft\obj\Release\StartupSoft.pdb
+E:\Programming\StartupSoft\StartupSoft\StartupSoft\bin\ApplicationInsights.config
+E:\Programming\StartupSoft\StartupSoft\StartupSoft\bin\roslyn\csc.exe
+E:\Programming\StartupSoft\StartupSoft\StartupSoft\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\Programming\StartupSoft\StartupSoft\StartupSoft\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\Programming\StartupSoft\StartupSoft\StartupSoft\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\Programming\StartupSoft\StartupSoft\StartupSoft\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\Programming\StartupSoft\StartupSoft\StartupSoft\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\Programming\StartupSoft\StartupSoft\StartupSoft\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\Programming\StartupSoft\StartupSoft\StartupSoft\bin\roslyn\System.Collections.Immutable.dll
+E:\Programming\StartupSoft\StartupSoft\StartupSoft\bin\roslyn\System.Reflection.Metadata.dll
+E:\Programming\StartupSoft\StartupSoft\StartupSoft\bin\roslyn\vbc.exe
+E:\Programming\StartupSoft\StartupSoft\StartupSoft\bin\roslyn\VBCSCompiler.exe
+E:\Programming\StartupSoft\StartupSoft\StartupSoft\bin\roslyn\VBCSCompiler.exe.config
+E:\Programming\StartupSoft\StartupSoft\StartupSoft\bin\StartupSoft.dll.config
+E:\Programming\StartupSoft\StartupSoft\StartupSoft\bin\StartupSoft.dll
+E:\Programming\StartupSoft\StartupSoft\StartupSoft\bin\StartupSoft.pdb
+E:\Programming\StartupSoft\StartupSoft\StartupSoft\bin\Antlr3.Runtime.dll
+E:\Programming\StartupSoft\StartupSoft\StartupSoft\bin\Microsoft.AI.Agent.Intercept.dll
+E:\Programming\StartupSoft\StartupSoft\StartupSoft\bin\Microsoft.AI.DependencyCollector.dll
+E:\Programming\StartupSoft\StartupSoft\StartupSoft\bin\Microsoft.AI.PerfCounterCollector.dll
+E:\Programming\StartupSoft\StartupSoft\StartupSoft\bin\Microsoft.AI.ServerTelemetryChannel.dll
+E:\Programming\StartupSoft\StartupSoft\StartupSoft\bin\Microsoft.AI.Web.dll
+E:\Programming\StartupSoft\StartupSoft\StartupSoft\bin\Microsoft.AI.WindowsServer.dll
+E:\Programming\StartupSoft\StartupSoft\StartupSoft\bin\Microsoft.ApplicationInsights.dll
+E:\Programming\StartupSoft\StartupSoft\StartupSoft\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\Programming\StartupSoft\StartupSoft\StartupSoft\bin\Microsoft.Web.Infrastructure.dll
+E:\Programming\StartupSoft\StartupSoft\StartupSoft\bin\Newtonsoft.Json.dll
+E:\Programming\StartupSoft\StartupSoft\StartupSoft\bin\System.Web.Helpers.dll
+E:\Programming\StartupSoft\StartupSoft\StartupSoft\bin\System.Web.Mvc.dll
+E:\Programming\StartupSoft\StartupSoft\StartupSoft\bin\System.Web.Optimization.dll
+E:\Programming\StartupSoft\StartupSoft\StartupSoft\bin\System.Web.Razor.dll
+E:\Programming\StartupSoft\StartupSoft\StartupSoft\bin\System.Web.WebPages.Deployment.dll
+E:\Programming\StartupSoft\StartupSoft\StartupSoft\bin\System.Web.WebPages.dll
+E:\Programming\StartupSoft\StartupSoft\StartupSoft\bin\System.Web.WebPages.Razor.dll
+E:\Programming\StartupSoft\StartupSoft\StartupSoft\bin\WebGrease.dll
+E:\Programming\StartupSoft\StartupSoft\StartupSoft\bin\Microsoft.AI.DependencyCollector.xml
+E:\Programming\StartupSoft\StartupSoft\StartupSoft\bin\Microsoft.AI.ServerTelemetryChannel.xml
+E:\Programming\StartupSoft\StartupSoft\StartupSoft\bin\Microsoft.AI.Web.xml
+E:\Programming\StartupSoft\StartupSoft\StartupSoft\bin\Microsoft.AI.WindowsServer.xml
+E:\Programming\StartupSoft\StartupSoft\StartupSoft\bin\Microsoft.ApplicationInsights.xml
+E:\Programming\StartupSoft\StartupSoft\StartupSoft\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\Programming\StartupSoft\StartupSoft\StartupSoft\bin\System.Web.Helpers.xml
+E:\Programming\StartupSoft\StartupSoft\StartupSoft\bin\System.Web.Mvc.xml
+E:\Programming\StartupSoft\StartupSoft\StartupSoft\bin\System.Web.Optimization.xml
+E:\Programming\StartupSoft\StartupSoft\StartupSoft\bin\System.Web.Razor.xml
+E:\Programming\StartupSoft\StartupSoft\StartupSoft\bin\System.Web.WebPages.xml
+E:\Programming\StartupSoft\StartupSoft\StartupSoft\bin\System.Web.WebPages.Deployment.xml
+E:\Programming\StartupSoft\StartupSoft\StartupSoft\bin\System.Web.WebPages.Razor.xml
+E:\Programming\StartupSoft\StartupSoft\StartupSoft\bin\Antlr3.Runtime.pdb
+E:\Programming\StartupSoft\StartupSoft\StartupSoft\bin\Newtonsoft.Json.xml
+E:\Programming\StartupSoft\StartupSoft\StartupSoft\obj\Release\StartupSoft.csprojResolveAssemblyReference.cache
+E:\Programming\StartupSoft\StartupSoft\StartupSoft\obj\Release\StartupSoft.dll
+E:\Programming\StartupSoft\StartupSoft\StartupSoft\obj\Release\StartupSoft.pdb

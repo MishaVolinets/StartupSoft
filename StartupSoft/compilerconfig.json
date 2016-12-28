@@ -1,0 +1,54 @@
+﻿[
+  {
+    "outputFile": "content/styles_sass/contact-us.css",
+    "inputFile": "content/styles_sass/contact-us.scss"
+  },
+  {
+    "outputFile": "content/styles_sass/style.css",
+    "inputFile": "content/styles_sass/style.scss"
+  },
+  {
+    "outputFile": "content/styles_sass/white_header.css",
+    "inputFile": "content/styles_sass/white_header.scss"
+  },
+  {
+    "outputFile": "content/styles_sass/testemonials.css",
+    "inputFile": "content/styles_sass/testemonials.scss"
+  },
+  {
+    "outputFile": "content/styles_sass/var.css",
+    "inputFile": "content/styles_sass/var.scss"
+  },
+  {
+    "outputFile": "content/styles_sass/standart-style.css",
+    "inputFile": "content/styles_sass/standart-style.scss"
+  },
+  {
+    "outputFile": "content/styles_sass/media-style.css",
+    "inputFile": "content/styles_sass/media-style.scss"
+  },
+  {
+    "outputFile": "content/styles_sass/icon-fonts.css",
+    "inputFile": "content/styles_sass/icon-fonts.scss"
+  },
+  {
+    "outputFile": "content/styles_sass/forms.css",
+    "inputFile": "content/styles_sass/forms.scss"
+  },
+  {
+    "outputFile": "content/styles_sass/font.css",
+    "inputFile": "content/styles_sass/font.scss"
+  },
+  {
+    "outputFile": "content/styles_sass/faq.css",
+    "inputFile": "content/styles_sass/faq.scss"
+  },
+  {
+    "outputFile": "Content/styles_sass/about_us.css",
+    "inputFile": "Content/styles_sass/about_us.scss"
+  },
+  {
+    "outputFile": "Content/styles_sass/modal.css",
+    "inputFile": "Content/styles_sass/modal.scss"
+  }
+]

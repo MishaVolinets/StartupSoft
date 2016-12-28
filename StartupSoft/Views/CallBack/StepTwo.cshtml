@@ -1,0 +1,47 @@
+﻿@model StartupSoft.Models.EmailModel
+
+<section class="forms">
+    <div class="container">
+        <div class="row">
+            <div class="center-container">
+                <a class="navigation-link" href="/callback"><span class="icon-last-track-left-arrow"></span> PREVIOUS QUESTION</a>
+
+                <div class="form-container">
+                    <h1 class="center-tittle">Tell us briefly about your project</h1>
+                    <form action="/email/send">
+                        <input type="hidden" name="Fullname" value="@Model.Fullname" />
+                        <input type="hidden" name="Email" value="@Model.Email" />
+                        <input type="hidden" name="FromApply" value="true" />
+                        <input type="text" name="ProjectName" placeholder="Project name" required />
+                        <br />
+                        <textarea name="Description" placeholder="Description" required></textarea>
+                        <div class="form-button">
+                            <button class="btn blue-button" type="submit">Apply</button>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal apply-modal fade" id="applyModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content apply-modal-content">
+                            <div class="modal-header apply-modal-header">
+                                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                                <br />
+                                <h4 class="modal-title apply-modal-tittle" id="myModalLabel">THANKS FOR GETTING IN TOUCH! CAN'T WAIT TO GET STARTED</h4>
+                            </div>
+                            <div class="modal-body apply-modal-text">
+                                One of our Designers or Developers will get back to you soon to hear more about your project and how we can help.
+                                While you wait, we'd love for you to take a look through our Playbook, it details how we make successful web and mobile prooducts.
+                            </div>
+                            <div class="modal-footer apply-modal-footer">
+                                <form action="/">
+                                    <button type="submit" class="btn blue-button apply-modal-button">Go to home</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+          <span class="page-number">2/2</span>
+        </div>
+    </div>
+</section>

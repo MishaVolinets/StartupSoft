@@ -1,0 +1,131 @@
+﻿@import "var.scss";
+@import "font.scss";
+
+.form-container {
+    margin: 0 25% 20vh;
+    margin-top: 15vh;
+}
+
+.apply-modal {
+    text-align: center;
+}
+
+.apply-modal-container {
+    margin: 0 25% 20vh;
+}
+
+.apply-modal-tittle {
+    color: #4094ED;
+    font-size: 18px;
+    padding-top: 12px;
+    padding-right: 35px;
+    padding-left: 35px;
+    font-size: 18px;
+}
+
+.apply-modal-text {
+    font-size: 16px;
+    padding: 5px 40px;
+}
+
+.apply-modal-content {
+    border-radius: 25px;
+    border: 2px solid #E9E9E9;
+}
+
+
+.apply-modal-header {
+    border-bottom: 1px solid transparent;
+}
+
+.apply-modal-footer {
+    border-top: 1px solid transparent;
+}
+
+input {
+    width: 100%;
+    padding: 12px 15px;
+    margin-bottom: 10px;
+    border: 1px solid #D1D1D1;
+    color: #000000;
+}
+
+input:focus {
+    outline: 0;
+}
+
+textarea {
+    width: 100%;
+    padding: 12px 15px;
+    margin-bottom: 10px;
+    min-height: 100px;
+    border: 1px solid #D1D1D1;
+    color: #000000;
+    resize: none;
+}
+
+textarea:focus {
+    outline: 0;
+}
+
+
+.blue-button {
+    background: #4094ED;
+    color: #fff;
+    font-size: 12px;
+    padding: 9px 30px;
+    &:hover{
+    color: #fff;
+    opacity: 0.7;
+    }
+    &:focus{
+    color: #fff;
+    }
+}
+
+.form-button {
+    float: right;
+    margin-top: 10px;
+}
+
+.navigation-link {
+    color: #4094ED;
+}
+
+.navigation-link:hover {
+    text-decoration: none;
+    color: #4094ED;
+    opacity: 0.6;
+
+}
+
+
+.apply-modal-button {
+    display: block;
+    margin: 10px auto 10px;
+    padding: 9px 40px;
+}
+
+.center-container {
+    margin-top: 5vh;
+}
+
+.page-number{
+ position: fixed;
+ right: 10%;
+ bottom: 5%;
+}
+
+@media (max-width: 998px) {
+.row{
+    margin: 0;
+  }
+
+}
+
+@media (max-width: 768px) {
+  .form-container {
+    margin: 0 5% 20vh;
+  }
+}
+// Calendar

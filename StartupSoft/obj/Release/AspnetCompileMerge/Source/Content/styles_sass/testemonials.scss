@@ -1,0 +1,106 @@
+﻿@import "var.scss";
+@import "font.scss";
+
+.center-tittle {
+    width: 100%;
+    text-align: center;
+    font-size: 34px;
+    margin: 70px 0 40px;
+    color: #1C1C1C;
+}
+.test{
+
+}
+.testimonials {
+    margin-bottom: 40px;
+
+    &:last-child {
+        &:after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            border-bottom: 1px solid #E9E9E9;
+            width: 100%;
+            left: 0;
+            top: 195px;
+            margin-left: 10px;
+            margin-right: 10px;
+        }
+    }
+
+    .testimonials-item {
+        margin: 40px 20%;
+        display: inline-block;
+        position: relative;
+    }
+
+    .testimonials-item:after {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        border-bottom: 1px solid #E9E9E9;
+        width: 100%;
+        left: 0;
+        top: 195px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+
+
+    .testimonials-name {
+        font-size: 20px;
+        font-family: 'MuseoSansMedium';
+        color: #1C1C1C;
+        margin-bottom: 5px;
+        display: inline-block;
+    }
+
+    .testimonials-img {
+        width: 100%;
+        max-width: 200px;
+        max-width: 200px;
+    }
+
+    .testimonials-type {
+        font-family: "MuseoSansMedium";
+        color: #949494;
+        margin-bottom: 12px;
+        display: inline-block;
+    }
+
+    .testimonials-text {
+        font-size: 12px;
+        font-family: "MuseoSansLightItalic";
+        color: #999999;
+        line-height: 26px;
+    }
+}
+
+
+
+@media (max-width: 1200px) {
+}
+
+@media (max-width: 991px) {
+    .testimonials-img {
+        display: block;
+        margin: 0 auto 18px;
+    }
+
+    .testimonials .testimonials-item {
+        margin: 20px 20% 10px;
+        display: inline-block;
+        position: relative;
+        text-align: center;
+        padding-bottom: 20px;
+        border-bottom: 1px solid #E9E9E9;
+    }
+
+    .testimonials-item:after {
+        display: none;
+    }
+}
+
+@media (max-width: 768px) {
+}

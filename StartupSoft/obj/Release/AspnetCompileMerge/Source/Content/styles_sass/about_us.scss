@@ -1,0 +1,62 @@
+﻿@import "var.scss";
+@import "font.scss";
+
+
+.about-us-header {
+    background: url('/Content/img/about.jpg') no-repeat center;
+    background-size: cover;
+    box-shadow: 0 0 0 550px rgba(0, 0, 0, 0.3) inset;
+    color: white;
+    text-align: center;
+    padding: 12vh 25% 15vh;
+
+    span {
+        font-size: 18px;
+    }
+}
+
+.white-navbar {
+    margin-bottom: 0;
+}
+
+.about-us-content {
+    text-align: center;
+    margin: 10vh 20%;
+    position: relative;
+}
+
+.content-header {
+    font-size: 20px;
+    font-weight: bold;
+    color: #333333;
+    position: relative;
+}
+
+.content-header:after {
+    content: '';
+    bottom: 0;
+    left: 0;
+    top: 38px;
+    width: 8%;
+    display: table;
+    margin: 15px auto 0;
+    border: 1px solid #4094ED;
+}
+
+.content-text {
+    color: #777;
+    font-size: 16px;
+    margin-top: 5px;
+    display: block;
+}
+
+.content-text:after {
+    content: '';
+    bottom: 0;
+    left: 0;
+    top: 38px;
+    width: 50%;
+    display: table;
+    margin: 50px auto 0;
+    border: 1px solid #E9E9E9;
+}
