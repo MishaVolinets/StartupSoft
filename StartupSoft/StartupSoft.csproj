@@ -169,6 +169,7 @@
     <Content Include="Content\icon_fonts\style.css" />
     <Content Include="Content\img\about.jpg" />
     <Content Include="Content\img\advising.png" />
+    <Content Include="Content\img\animation.gif" />
     <Content Include="Content\img\design-img.png" />
     <Content Include="Content\img\design-img_1.png" />
     <Content Include="Content\img\design-img_2.png" />
@@ -187,6 +188,12 @@
     <Content Include="Content\img\mvp-5.png" />
     <Content Include="Content\img\mvp-6.png" />
     <Content Include="Content\img\mvp-7.png" />
+    <Content Include="Content\img\mvp-img-1.png" />
+    <Content Include="Content\img\mvp-img-2.png" />
+    <Content Include="Content\img\mvp-img-3.png" />
+    <Content Include="Content\img\mvp-img-4.png" />
+    <Content Include="Content\img\mvp-img-5.png" />
+    <Content Include="Content\img\mvp-img-6.png" />
     <Content Include="Content\styles_sass\about_us.css">
       <DependentUpon>about_us.scss</DependentUpon>
     </Content>
@@ -254,6 +261,7 @@
       <DependentUpon>white_header.css</DependentUpon>
     </Content>
     <Content Include="robots.txt" />
+    <Content Include="Scripts\animations.js" />
     <Content Include="Scripts\animations.min.js" />
     <Content Include="Content\motion-ui\_settings.scss" />
     <Content Include="Content\motion-ui\_classes.scss" />

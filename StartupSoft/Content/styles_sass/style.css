@@ -157,7 +157,7 @@ header {
           font-size: 18px; }
           header .main-navbar-block .navbar-menu ul li a {
             color: #ffffff;
-            font-size: 16px; }
+            font-size: 15px; }
             header .main-navbar-block .navbar-menu ul li a:hover {
               text-decoration: none; }
             header .main-navbar-block .navbar-menu ul li a:focus {
@@ -226,7 +226,7 @@ header {
     width: 50%; }
     .step-second-block .step-information-block .step-head-text {
       width: 100%;
-      margin-bottom: 25px; }
+      margin-bottom: 15px; }
       .step-second-block .step-information-block .step-head-text .number-step {
         font-size: 100px;
         color: #e9e9e9;
@@ -270,6 +270,13 @@ header {
       display: inline-block;
       width: 70%;
       margin-top: 15px; }
+    .step-second-block .step-information-block .step-animation-block {
+      width: 100%;
+      min-height: 260px;
+      margin-top: 30px; }
+      .step-second-block .step-information-block .step-animation-block img {
+        width: 100%;
+        height: auto; }
     .step-second-block .step-information-block .design-image-block {
       width: 100%;
       min-height: 327px;
@@ -296,29 +303,56 @@ header {
       width: 100%;
       position: relative;
       min-height: 450px; }
-      .step-second-block .step-information-block .mvp-image-block img {
-        position: absolute; }
-        .step-second-block .step-information-block .mvp-image-block img:last-child {
-          top: 35%;
+      .step-second-block .step-information-block .mvp-image-block .mvp-img {
+        position: absolute;
+        border-radius: 50%;
+        border: 4px solid #e9e9e9;
+        overflow: hidden; }
+        .step-second-block .step-information-block .mvp-image-block .mvp-img:last-child {
+          top: 32%;
           left: 35%; }
-        .step-second-block .step-information-block .mvp-image-block img:first-child {
+        .step-second-block .step-information-block .mvp-image-block .mvp-img:first-child {
           top: 60%;
-          left: 10%; }
-        .step-second-block .step-information-block .mvp-image-block img:nth-child(2) {
-          top: 80%;
-          left: 43%; }
-        .step-second-block .step-information-block .mvp-image-block img:nth-child(3) {
-          top: 20%;
-          left: 10%; }
-        .step-second-block .step-information-block .mvp-image-block img:nth-child(4) {
-          top: 60%;
-          left: 75%; }
-        .step-second-block .step-information-block .mvp-image-block img:nth-child(5) {
-          top: 5%;
-          left: 43%; }
-        .step-second-block .step-information-block .mvp-image-block img:nth-child(6) {
-          top: 20%;
-          right: 10%; }
+          left: 10%;
+          background-image: url("/Content/img/mvp-img-1.png");
+          background-size: cover;
+          height: 80px;
+          width: 80px; }
+        .step-second-block .step-information-block .mvp-image-block .mvp-img:nth-child(2) {
+          bottom: 7%;
+          left: 44%;
+          background-image: url("/Content/img/mvp-img-2.png");
+          background-size: cover;
+          height: 75px;
+          width: 75px; }
+        .step-second-block .step-information-block .mvp-image-block .mvp-img:nth-child(3) {
+          top: 22%;
+          left: 12%;
+          background-image: url("/Content/img/mvp-img-3.png");
+          background-size: cover;
+          height: 75px;
+          width: 75px; }
+        .step-second-block .step-information-block .mvp-image-block .mvp-img:nth-child(4) {
+          bottom: 23%;
+          right: 8%;
+          background-image: url("/Content/img/mvp-img-4.png");
+          background-size: cover;
+          height: 75px;
+          width: 75px; }
+        .step-second-block .step-information-block .mvp-image-block .mvp-img:nth-child(5) {
+          top: 7%;
+          left: 44%;
+          background-image: url("/Content/img/mvp-img-5.png");
+          background-size: cover;
+          height: 75px;
+          width: 75px; }
+        .step-second-block .step-information-block .mvp-image-block .mvp-img:nth-child(6) {
+          top: 23%;
+          right: 8%;
+          background-image: url("/Content/img/mvp-img-6.png");
+          background-size: cover;
+          height: 75px;
+          width: 75px; }
 
 /*---------find-out-block--------------*/
 .find-out-block {
@@ -353,6 +387,10 @@ footer {
       text-decoration: none; }
       footer .footer-column .social-icons-links:hover {
         cursor: pointer; }
+    footer .footer-column .icon-facebook-letter-logo:hover {
+      color: #4862A3; }
+    footer .footer-column .icon-linkedin-logo:hover {
+      color: #1F88BE; }
     footer .footer-column .footer-text-information {
       font-size: 16px; }
 

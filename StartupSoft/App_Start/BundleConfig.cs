@@ -25,7 +25,7 @@ namespace StartupSoft
 
             bundles.Add(new ScriptBundle("~/bundles/main").Include(
                     "~/Scripts/wow.min.js",
-                    "~/Scripts/animations.min.js",
+                    "~/Scripts/animations.js",
                     "~/Scripts/checkLength.js"
                 ));
 
