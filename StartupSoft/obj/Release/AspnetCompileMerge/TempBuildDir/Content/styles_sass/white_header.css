@@ -96,7 +96,7 @@
 .white-navbar {
   background: #fff;
   height: auto;
-  min-height: 60px;
+  min-height: 50px;
   border: 1px solid #E9E9E9;
   padding-left: 60px;
   padding-right: 60px;
@@ -118,6 +118,10 @@
     width: 50px; }
   .white-navbar .white-navbar-menu {
     float: right; }
+
+.navbar-nav {
+  margin-left: 0;
+  margin-right: 0; }
 
 @media (max-width: 768px) {
   .white-navbar {

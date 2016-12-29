@@ -143,3 +143,6 @@
   margin: 50px auto 0;
   border: 1px solid #E9E9E9; }
 
+.content-text:last-child:after {
+  display: none; }
+

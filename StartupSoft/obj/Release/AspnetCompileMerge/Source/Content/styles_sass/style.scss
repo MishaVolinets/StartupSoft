@@ -218,17 +218,17 @@ header {
     }
     .design-image-block {
       width: 100%;
-      min-height: 280px;
-      /*background-image: url("/Content/img/design-img.png");*/
+      min-height: 327px;
       background-size: contain;
       background-repeat: no-repeat;
       background-position: center;
       position: relative;
       .design-img-one{
         width: 80%;
-        height: 100%;
+        height: auto;
         position: absolute;
         left: 10%;
+        bottom: 0;
       }
       .design-img-two{
         width: 50%;
@@ -288,7 +288,7 @@ header {
   min-height: 250px;
   background-color: #f7f7f7;
   text-align: center;
-  padding: 50px 0 0 0;
+  padding: 50px 15px 0;
   overflow: hidden;
   .find-out-title-text {
     font-size: 22px;

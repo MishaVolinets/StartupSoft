@@ -1,4 +1,5 @@
 ﻿$(document).ready(function () {
+    debugger;   
     var desc = $("#Description"),
         massageLength = $("#massageLength");
 
@@ -6,6 +7,7 @@
         return;
 
     desc.keyup(function (event) {
+        debugger;
         var count = 1000- desc.val().length;
         
         massageLength.text(count);

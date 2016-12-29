@@ -18,6 +18,7 @@
             <ul class="nav navbar-nav navbar-text white-navbar-menu">
                 <li><a href="/" class="underline">HOME</a></li>
                 <li><a href="/about" class="underline">ABOUT</a></li>
+                <li><a href="http://blog.startupsoft.org/" class="underline">BLOG</a></li>
                 <li><a href="/faq" class="underline">FAQ</a></li>
                 <li><a href="/contact" class="underline">CONTACT US</a></li>
             </ul>
@@ -49,7 +50,7 @@
                         </div>
                         <div class="col-md-12">
                             <dic class="contact-us-textarea">
-                                <textarea placeholder="Massage" name="Description" required></textarea>
+                                <textarea placeholder="Massage" name="Description" id="Description" elastic required></textarea>
                                 <span id="massageLength">1000</span>
                             </dic>
                         </div>
@@ -65,23 +66,3 @@
         </div>
     </div>
 </section>
-<div class="modal apply-modal fade" id="applyModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
-        <div class="modal-content apply-modal-content">
-            <div class="modal-header apply-modal-header">
-                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-                <br />
-                <h4 class="modal-title apply-modal-tittle" id="myModalLabel">THANKS FOR GETTING IN TOUCH! CAN'T WAIT TO GET STARTED</h4>
-            </div>
-            <div class="modal-body apply-modal-text">
-                One of our Designers or Developers will get back to you soon to hear more about your project and how we can help.
-                While you wait, we'd love for you to take a look through our Playbook, it details how we make successful web and mobile prooducts.
-            </div>
-            <div class="modal-footer apply-modal-footer">
-                <form action="/">
-                    <button type="submit" type="button" class="btn blue-button apply-modal-button">Go to home</button>
-                </form>
-            </div>
-        </div>
-    </div>
-</div>

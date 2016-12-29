@@ -99,7 +99,9 @@
   .medium-device-display-none {
     display: none; }
   .step-second-block .step-information-block .text-with-icon {
-    width: 65%; } }
+    width: 65%; }
+  .step-second-block .step-information-block .design-image-block {
+    min-height: 267px; } }
 
 @media only screen and (max-width: 992px) {
   .container {
@@ -116,10 +118,11 @@
       width: 100%; }
       .step-second-block .step-information-block .design-image-block {
         width: 50%;
-        margin: 0 auto;
-        min-height: 250px; }
+        margin: 0 auto; }
   .left-padding, .right-padding {
-    padding: 0; } }
+    padding: 0; }
+  .align-right {
+    text-align: left; } }
 
 @media only screen and (max-width: 992px) and (min-width: 776px) {
   .step-second-block .step-information-block .mvp-image-block {
@@ -128,7 +131,6 @@
 
 @media only screen and (max-width: 868px) {
   .step-second-block .step-information-block .design-image-block {
-    min-height: 210px;
     width: 60%; } }
 
 @media only screen and (max-width: 788px) {
@@ -147,21 +149,24 @@
   header .white-navbar-dispaly {
     display: block; }
   .step-second-block .step-information-block .design-image-block {
-    min-height: 210px; } }
+    min-height: 237px; }
+  .content-header:after {
+    width: 15%; } }
 
 @media only screen and (max-width: 725px) {
+  .step-second-block .step-information-block .design-image-block {
+    min-height: 220px; } }
+
+@media only screen and (max-width: 635px) {
   .step-second-block .step-information-block .design-image-block {
     min-height: 190px; } }
-
-@media only screen and (max-width: 725px) {
-  .step-second-block .step-information-block .design-image-block {
-    min-height: 180px; } }
 
 @media only screen and (max-width: 579px) {
   .mvp-image-block {
     display: none; }
   .step-second-block .step-information-block .design-image-block {
-    width: 70%; } }
+    width: 70%;
+    min-height: 173px; } }
 
 @media only screen and (max-width: 500px) {
   header .head-title {
@@ -190,7 +195,9 @@
 
 @media only screen and (max-width: 444px) {
   .step-second-block .step-information-block .design-image-block {
-    width: 90%; } }
+    width: 90%; }
+  .content-header:after {
+    width: 25%; } }
 
 @media only screen and (max-width: 368px) {
   .step-second-block .step-information-block .design-image-block {

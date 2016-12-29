@@ -120,7 +120,8 @@
     float: right; }
 
 .navbar-nav {
-  margin: 0; }
+  margin-left: 0;
+  margin-right: 0; }
 
 @media (max-width: 768px) {
   .white-navbar {

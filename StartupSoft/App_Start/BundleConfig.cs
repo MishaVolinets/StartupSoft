@@ -29,6 +29,15 @@ namespace StartupSoft
                     "~/Scripts/checkLength.js"
                 ));
 
+            bundles.Add(new ScriptBundle("~/bundles/angular").Include(
+                "~/Scripts/angular.min.js"
+            ));
+
+            bundles.Add(new ScriptBundle("~/bundles/angular-comp").Include(
+                    "~/Scripts/app/app.js",
+                    "~/Scripts/app/common/directives.js"
+                ));
+
             bundles.Add(new StyleBundle("~/Content/css").Include(
                       "~/Content/bootstrap.min.css",
                        "~/Content/animate.min.css",

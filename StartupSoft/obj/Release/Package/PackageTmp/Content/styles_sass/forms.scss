@@ -1,6 +1,10 @@
 ﻿@import "var.scss";
 @import "font.scss";
 
+.forms{
+min-height: 650px;
+}
+
 .form-container {
     margin: 0 25% 20vh;
     margin-top: 15vh;
@@ -111,7 +115,7 @@ textarea:focus {
 }
 
 .page-number{
- position: fixed;
+ position: absolute;
  right: 10%;
  bottom: 5%;
 }

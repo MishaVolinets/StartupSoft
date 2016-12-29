@@ -253,6 +253,7 @@
     <Content Include="Content\styles_sass\white_header.min.css">
       <DependentUpon>white_header.css</DependentUpon>
     </Content>
+    <Content Include="robots.txt" />
     <Content Include="Scripts\animations.min.js" />
     <Content Include="Content\motion-ui\_settings.scss" />
     <Content Include="Content\motion-ui\_classes.scss" />
@@ -287,6 +288,7 @@
     <Content Include="Content\styles_sass\modal.scss" />
     <Content Include="ClassDiagram1.cd" />
     <None Include="Scripts\jquery-2.2.0.intellisense.js" />
+    <Content Include="Scripts\app\common\directives.js" />
     <Content Include="Scripts\checkLength.js" />
     <Content Include="Scripts\jquery-2.2.0.js" />
     <Content Include="Scripts\jquery-2.2.0.min.js" />
@@ -294,6 +296,9 @@
     <Content Include="Scripts\motion-ui.min.js" />
     <Content Include="Scripts\sendForm.js" />
     <Content Include="Scripts\wow.min.js" />
+    <Content Include="sitemap.xml">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="Views\CallBack\Index.cshtml" />
     <Content Include="Views\CallBack\StepTwo.cshtml" />
     <None Include="compilerconfig.json" />
@@ -311,7 +316,6 @@
     <Content Include="Scripts\angular.js" />
     <Content Include="Scripts\angular.min.js" />
     <Content Include="Scripts\app\app.js" />
-    <Content Include="Scripts\app\common\controllers.js" />
     <Content Include="Scripts\app\layout\mainNavBar.js" />
     <Content Include="Scripts\app\layout\_mainNavBarTop.html" />
     <Content Include="Scripts\app\layout\_navbarTop.html" />
