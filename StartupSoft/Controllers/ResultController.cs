@@ -11,6 +11,7 @@ namespace StartupSoft.Controllers
         // GET: Result
         public ActionResult Index()
         {
+            ViewBag.showFooter = "";
             return View();
         }
     }
