@@ -157,7 +157,7 @@ header {
           font-size: 18px; }
           header .main-navbar-block .navbar-menu ul li a {
             color: #ffffff;
-            font-size: 16px; }
+            font-size: 15px; }
             header .main-navbar-block .navbar-menu ul li a:hover {
               text-decoration: none; }
             header .main-navbar-block .navbar-menu ul li a:focus {
@@ -270,6 +270,13 @@ header {
       display: inline-block;
       width: 70%;
       margin-top: 15px; }
+    .step-second-block .step-information-block .step-animation-block {
+      width: 100%;
+      min-height: 260px;
+      margin-top: 30px; }
+      .step-second-block .step-information-block .step-animation-block img {
+        width: 100%;
+        height: auto; }
     .step-second-block .step-information-block .design-image-block {
       width: 100%;
       min-height: 327px;
@@ -353,6 +360,10 @@ footer {
       text-decoration: none; }
       footer .footer-column .social-icons-links:hover {
         cursor: pointer; }
+    footer .footer-column .icon-facebook-letter-logo:hover {
+      color: #4862A3; }
+    footer .footer-column .icon-linkedin-logo:hover {
+      color: #1F88BE; }
     footer .footer-column .footer-text-information {
       font-size: 16px; }
 
