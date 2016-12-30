@@ -1,9 +1,6 @@
 ﻿@import "var.scss";
 @import "font.scss";
 
-.forms{
-min-height: 650px;
-}
 
 .form-container {
     margin: 0 25% 20vh;
@@ -115,7 +112,7 @@ textarea:focus {
 }
 
 .page-number{
- position: absolute;
+ position: fixed;
  right: 10%;
  bottom: 5%;
 }
@@ -132,4 +129,9 @@ textarea:focus {
     margin: 0 5% 20vh;
   }
 }
-// Calendar
+
+@media (max-height: 400px) {
+  .page-number{
+    display: none;
+  }
+}

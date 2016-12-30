@@ -7,7 +7,6 @@
         return;
 
     desc.keyup(function (event) {
-        debugger;
         var count = 1000- desc.val().length;
         
         massageLength.text(count);

@@ -11,6 +11,7 @@ namespace StartupSoft.Models
         public string LastName { get; set; }
         public string Fullname { get; set; }
         public string Email { get; set; }
+        public string Skype { get; set; }
         public string ProjectName { get; set; }
         public string Description { get; set; }
         public bool FromApply { get; set; }

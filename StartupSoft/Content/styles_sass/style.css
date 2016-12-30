@@ -273,7 +273,9 @@ header {
     .step-second-block .step-information-block .step-animation-block {
       width: 100%;
       min-height: 260px;
-      margin-top: 30px; }
+      margin-top: 30px;
+      overflow: hidden;
+      border-radius: 10px; }
       .step-second-block .step-information-block .step-animation-block img {
         width: 100%;
         height: auto; }

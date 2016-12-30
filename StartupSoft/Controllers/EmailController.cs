@@ -79,6 +79,9 @@ namespace StartupSoft.Controllers
             msg += "<h1>Full name: </h1>" + model.Fullname;
             msg += "<h1>Email: </h1>" + model.Email;
 
+            if (model.Skype != null)
+                msg += "<h1>Skype: </h1>" + model.Skype;
+
             if (model.ProjectName != null)
                 msg += "<h1>Project name: </h1>" + model.ProjectName;
 
