@@ -115,7 +115,13 @@ header, section, footer {
   padding-right: 80px; }
 
 .display-none {
-  display: none; }
+  display: none !important; }
+
+.display-inline-block {
+  display: inline-block; }
+
+.display-block {
+  display: inline-block; }
 
 /*----------------general-button-style-----------------*/
 .general-button {
@@ -145,12 +151,11 @@ header, section, footer {
 
 .white-navbar-button-margin {
   margin-top: 5px;
-  margin-left: 10px; }
+  margin-left: 15px; }
 
 .dark-hover-shadow:hover {
   opacity: 0.7;
-  box-shadow: none;
-  transition: none; }
+  box-shadow: none; }
 
 .active {
   background-color: #74a1d2 !important;
@@ -204,7 +209,4 @@ header, section, footer {
     color: #4094ed; }
     .underline:hover:after {
       width: 100%; }
-
-a:focus {
-  text-decoration: none !important; }
 

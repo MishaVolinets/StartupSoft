@@ -30,7 +30,14 @@ header, section, footer {
 }
 
 .display-none {
-  display: none;
+  display: none !important;
+}
+
+.display-inline-block{
+display: inline-block;
+}
+.display-block{
+  display: inline-block;
 }
 
 /*----------------general-button-style-----------------*/
@@ -65,13 +72,12 @@ header, section, footer {
 
 .white-navbar-button-margin{
   margin-top: 5px;
-  margin-left: 10px;
+  margin-left: 15px;
 }
 
 .dark-hover-shadow:hover {
   opacity: 0.7;
   box-shadow: none;
-  transition: none;
 }
 
 .active {
@@ -138,8 +144,4 @@ header, section, footer {
       width: 100%;
     }
   }
-}
-
-a:focus{
-    text-decoration: none!important;
 }

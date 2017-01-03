@@ -1,4 +1,5 @@
-var $menu = $("#menu");
+var $menu = $('#menu');
+
 
 $(window).scroll(function(){
         $('.step-blue-indicator').each(function(){
@@ -14,9 +15,11 @@ $(window).scroll(function(){
 
         var ScrollPosition = $(this).scrollTop();
         if(ScrollPosition>150){
-            $menu.removeClass("white-navbar-display-none").addClass("white-navbar-display");
+            $menu.removeClass('white-navbar-display-none').addClass('white-navbar-display');
         } else if (ScrollPosition<150){
-            $menu.removeClass("white-navbar-display").addClass("white-navbar-display-none");
+            $menu.removeClass('white-navbar-display').addClass('white-navbar-display-none');
         }
+
+
     });
 
