@@ -133,7 +133,8 @@ input {
   color: #000000; }
 
 input:focus {
-  outline: 0; }
+  outline: 0;
+  border: 1px solid #79b4f2; }
 
 textarea {
   width: 100%;
@@ -145,7 +146,8 @@ textarea {
   resize: none; }
 
 textarea:focus {
-  outline: 0; }
+  outline: 0;
+  border: 1px solid #79b4f2; }
 
 .blue-button {
   background: #4094ED;
