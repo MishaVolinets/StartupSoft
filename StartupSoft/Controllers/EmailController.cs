@@ -28,7 +28,10 @@ namespace StartupSoft.Controllers
         private void sendEmail(EmailModel model)
         {
             var fromAddress = new MailAddress("startupsoftmail@gmail.com", "SS Mail Notifier");
-            var toAddress = new MailAddress("vasylykalex@gmail.com");
+            List<MailAddress> toAdress = new List<MailAddress>();
+            toAdress.Add(new MailAddress("vasylykalex@gmail.com"));
+            toAdress.Add(new MailAddress("annaalexmelnik@gmail.com "));
+            toAdress.Add(new MailAddress("volinetsmisha@gmail.com "));
             const string fromPassword = "qweasdSS";
 
             string massage = createMassage(model);
@@ -45,15 +48,18 @@ namespace StartupSoft.Controllers
             smtp.Credentials = new NetworkCredential(fromAddress.Address, fromPassword);
             smtp.DeliveryMethod = SmtpDeliveryMethod.Network;
 
-            using (var message = new MailMessage(fromAddress, toAddress)
+            foreach (var to in toAdress)
             {
-                Subject = "New contact " + FullName,
-                Body = massage,
-                IsBodyHtml = true,
-                BodyEncoding = Encoding.UTF8
-            })
-            {
-                smtp.Send(message);
+                using (var message = new MailMessage(fromAddress, to)
+                {
+                    Subject = "New contact " + FullName,
+                    Body = massage,
+                    IsBodyHtml = true,
+                    BodyEncoding = Encoding.UTF8
+                })
+                {
+                    smtp.Send(message);
+                }
             }
         }
 
