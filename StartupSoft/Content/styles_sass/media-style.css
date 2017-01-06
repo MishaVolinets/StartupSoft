@@ -95,13 +95,16 @@
 
 @media only screen and (max-width: 1200px) {
   .medium-device-style {
-    display: block; }
+    display: block !important; }
   .medium-device-display-none {
-    display: none; }
+    display: none !important; }
   .step-second-block .step-information-block .text-with-icon {
     width: 65%; }
   .step-second-block .step-information-block .design-image-block {
-    min-height: 267px; } }
+    min-height: 267px; }
+  .step-second-block .step-information-block .bussines-image-block {
+    width: 100%;
+    margin: 0; } }
 
 @media only screen and (max-width: 992px) {
   .container {
@@ -115,14 +118,19 @@
   .step-second-block {
     padding: 0 80px 0 80px; }
     .step-second-block .step-information-block {
-      width: 100%; }
+      width: 100%;
+      margin-bottom: 25px; }
       .step-second-block .step-information-block .design-image-block {
         width: 50%;
         margin: 0 auto; }
   .left-padding, .right-padding {
     padding: 0; }
   .align-right {
-    text-align: left; } }
+    text-align: left; }
+  .step-second-block .step-information-block .bussines-image-block {
+    width: 55%;
+    margin: 0 auto;
+    min-height: 360px; } }
 
 @media only screen and (max-width: 992px) and (min-width: 776px) {
   .step-second-block .step-information-block .mvp-image-block {
@@ -133,7 +141,12 @@
   .step-second-block .step-information-block .design-image-block {
     width: 60%; }
   .white-navbar-button-margin {
-    display: none; } }
+    display: none; }
+  .mobile-button-aplly {
+    display: block !important; }
+  .step-second-block .step-information-block .bussines-image-block {
+    width: 65%;
+    min-height: 390px; } }
 
 @media only screen and (max-width: 788px) {
   .footer-column {
@@ -144,8 +157,10 @@
     min-height: 0 !important; }
   .main-navbar-block {
     display: none; }
-  .white-navbar-display-none {
+  .white-navbar-display-main-page {
     display: block; }
+  .white-navbar-dispaly-none-second-page {
+    display: none; }
   .navbar {
     margin-bottom: 0; }
   header .white-navbar-dispaly {
@@ -153,22 +168,43 @@
   .step-second-block .step-information-block .design-image-block {
     min-height: 237px; }
   .content-header:after {
-    width: 15%; } }
+    width: 15%; }
+  .step-second-block .step-information-block .bussines-image-block {
+    min-height: 350px; } }
+
+@media only screen and (max-width: 768px) {
+  .navbar-header {
+    float: none; }
+  .navbar-toggle {
+    display: block; }
+  .navbar-collapse.collapse {
+    display: none !important; }
+  .step-second-block .step-information-block .bussines-image-block {
+    width: 75%;
+    min-height: 390px; } }
 
 @media only screen and (max-width: 725px) {
   .step-second-block .step-information-block .design-image-block {
-    min-height: 220px; } }
+    min-height: 220px; }
+  .step-second-block .step-information-block .bussines-image-block {
+    width: 80%; } }
 
 @media only screen and (max-width: 635px) {
   .step-second-block .step-information-block .design-image-block {
-    min-height: 190px; } }
+    min-height: 190px; }
+  .step-second-block .step-information-block .bussines-image-block {
+    width: 100%; } }
 
 @media only screen and (max-width: 579px) {
   .mvp-image-block {
     display: none; }
   .step-second-block .step-information-block .design-image-block {
     width: 70%;
-    min-height: 173px; } }
+    min-height: 173px; }
+  .step-second-block .step-information-block .bussines-image-block {
+    width: 85%;
+    margin: 0 auto;
+    min-height: 280px; } }
 
 @media only screen and (max-width: 500px) {
   header .head-title {
@@ -193,13 +229,22 @@
   .services-text-block {
     width: 100%;
     margin: 0;
-    text-align: center; } }
+    text-align: center; }
+  .step-second-block .step-information-block .bussines-image-block {
+    width: 85%;
+    margin: 0 auto;
+    min-height: 300px; } }
 
 @media only screen and (max-width: 444px) {
   .step-second-block .step-information-block .design-image-block {
     width: 90%; }
   .content-header:after {
-    width: 25%; } }
+    width: 25%; }
+  .step-second-block .step-information-block .bussines-image-block {
+    /*width: 70%;
+    margin: 0 auto;
+    min-height: 230px;*/
+    display: none; } }
 
 @media only screen and (max-width: 368px) {
   .step-second-block .step-information-block .design-image-block {

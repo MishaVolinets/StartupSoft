@@ -171,6 +171,7 @@
     <Content Include="Content\img\about.jpg" />
     <Content Include="Content\img\advising.png" />
     <Content Include="Content\img\animation.gif" />
+    <Content Include="Content\img\BM-image.gif" />
     <Content Include="Content\img\design-img.png" />
     <Content Include="Content\img\design-img_1.png" />
     <Content Include="Content\img\design-img_2.png" />
@@ -190,6 +191,7 @@
     <Content Include="Content\img\mvp-6.png" />
     <Content Include="Content\img\mvp-7.png" />
     <Content Include="Content\img\mvp-img-1.png" />
+    <Content Include="Content\img\mvp-img-1m.png" />
     <Content Include="Content\img\mvp-img-2.png" />
     <Content Include="Content\img\mvp-img-3.png" />
     <Content Include="Content\img\mvp-img-4.png" />
