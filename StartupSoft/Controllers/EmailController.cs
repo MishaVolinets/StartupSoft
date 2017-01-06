@@ -30,8 +30,8 @@ namespace StartupSoft.Controllers
             var fromAddress = new MailAddress("startupsoftmail@gmail.com", "SS Mail Notifier");
             List<MailAddress> toAdress = new List<MailAddress>();
             toAdress.Add(new MailAddress("vasylykalex@gmail.com"));
-            toAdress.Add(new MailAddress("annaalexmelnik@gmail.com "));
-            toAdress.Add(new MailAddress("volinetsmisha@gmail.com "));
+            toAdress.Add(new MailAddress("annaalexmelnik@gmail.com"));
+            toAdress.Add(new MailAddress("volinetsmisha@gmail.com"));
             const string fromPassword = "qweasdSS";
 
             string massage = createMassage(model);

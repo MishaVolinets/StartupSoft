@@ -145,8 +145,7 @@ textarea {
   resize: none; }
 
 textarea:focus {
-  outline: 0;
-  border: 1px solid #79b4f2; }
+  outline: 0; }
 
 .blue-button {
   background: #4094ED;

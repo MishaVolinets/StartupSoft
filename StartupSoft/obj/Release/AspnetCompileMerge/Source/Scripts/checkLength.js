@@ -1,5 +1,4 @@
 ﻿$(document).ready(function () {
-    debugger;   
     var desc = $("#Description"),
         massageLength = $("#massageLength");
 

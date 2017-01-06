@@ -30,7 +30,14 @@ header, section, footer {
 }
 
 .display-none {
-  display: none;
+  display: none !important;
+}
+
+.display-inline-block{
+display: inline-block;
+}
+.display-block{
+  display: inline-block;
 }
 
 /*----------------general-button-style-----------------*/
@@ -48,11 +55,25 @@ header, section, footer {
   overflow: hidden;
   position: relative;
   font-family: MuseoSansBold;
+  letter-spacing: 2px;
   &:hover {
     cursor: pointer;
     box-shadow: inset 0 0 40px 2px rgba(0, 0, 0, 0.3);
     transition: 0.5s;
   }
+}
+
+.step-button-style {
+      width: 160px !important;
+      height: 38px !important;
+      line-height: 1.5;
+      font-size: 12px;
+      margin-top: 25px;
+    }
+
+.white-navbar-button-margin{
+  margin-top: 5px;
+  margin-left: 15px;
 }
 
 .dark-hover-shadow:hover {

@@ -3,10 +3,10 @@
 
 @media only screen and (max-width: 1200px) {
   .medium-device-style {
-    display: block;
+    display: block !important;
   }
   .medium-device-display-none {
-    display: none;
+    display: none !important;
   }
   .step-second-block .step-information-block .text-with-icon {
     width: 65%;
@@ -17,6 +17,10 @@
         min-height:267px; 
       }
     }
+  }
+  .step-second-block .step-information-block .bussines-image-block{
+    width: 100%;
+    margin: 0;
   }
 }
 
@@ -36,6 +40,7 @@
     padding: 0 80px 0 80px;
     .step-information-block {
       width: 100%;
+      margin-bottom: 25px;
       .design-image-block{
         width: 50%;
         margin: 0 auto;
@@ -86,6 +91,11 @@
   .navbar-brand {
     display: inline-block;
     padding: 7px 15px;}
+  .step-second-block .step-information-block .bussines-image-block{
+    width: 55%;
+    margin: 0 auto;
+    min-height: 360px;
+  }
 }
 
 @media only screen and (max-width: 992px) and (min-width: 776px) {
@@ -105,6 +115,16 @@
       }
     }
   }
+  .white-navbar-button-margin{
+    display: none;
+  }
+  .mobile-button-aplly{
+    display: block !important;
+  }
+  .step-second-block .step-information-block .bussines-image-block{
+    width: 65%;
+    min-height: 390px;
+  }
 }
 
 @media only screen and (max-width: 788px) {
@@ -118,8 +138,11 @@
   .main-navbar-block {
     display: none;
   }
-  .white-navbar-display-none {
+  .white-navbar-display-main-page{
     display: block;
+  }
+  .white-navbar-dispaly-none-second-page{
+  display: none;
   }
   .navbar {
     margin-bottom: 0;
@@ -137,6 +160,25 @@
   .content-header:after {
     width: 15%;
   }
+    .step-second-block .step-information-block .bussines-image-block{
+    min-height: 350px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .navbar-header{
+    float: none;
+  }
+  .navbar-toggle{
+    display: block;
+  }
+  .navbar-collapse.collapse {
+      display: none !important;
+    }
+    .step-second-block .step-information-block .bussines-image-block{
+    width: 75%;
+    min-height: 390px;
+  }
 }
 
 @media only screen and (max-width: 725px) {
@@ -147,7 +189,9 @@
       }
     }
   }
-
+  .step-second-block .step-information-block .bussines-image-block{
+    width: 80%;
+  }
 }
 @media only screen and (max-width: 635px) {
 .step-second-block {
@@ -156,6 +200,9 @@
         min-height: 190px;
       }
     }
+  }
+  .step-second-block .step-information-block .bussines-image-block{
+    width: 100%;
   }
 
 }
@@ -172,6 +219,11 @@
         min-height: 173px;
       }
     }
+  }
+  .step-second-block .step-information-block .bussines-image-block{
+    width: 85%;
+    margin: 0 auto;
+    min-height: 280px;
   }
 }
 
@@ -207,7 +259,11 @@
     margin: 0;
     text-align: center;
   }
-  
+  .step-second-block .step-information-block .bussines-image-block{
+    width: 85%;
+    margin: 0 auto;
+    min-height: 300px;
+  }
 }
 
 @media only screen and (max-width: 444px) {
@@ -220,6 +276,12 @@
   }
   .content-header:after {
     width: 25%;
+  }
+  .step-second-block .step-information-block .bussines-image-block{
+    /*width: 70%;
+    margin: 0 auto;
+    min-height: 230px;*/
+    display: none;
   }
 }
 @media only screen and (max-width: 368px) {
