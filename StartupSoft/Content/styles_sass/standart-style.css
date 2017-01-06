@@ -115,7 +115,13 @@ header, section, footer {
   padding-right: 80px; }
 
 .display-none {
-  display: none; }
+  display: none !important; }
+
+.display-inline-block {
+  display: inline-block; }
+
+.display-block {
+  display: inline-block; }
 
 /*----------------general-button-style-----------------*/
 .general-button {
@@ -130,27 +136,27 @@ header, section, footer {
   outline: none;
   overflow: hidden;
   position: relative;
-  font-family: MuseoSansBold; }
+  font-family: MuseoSansBold;
+  letter-spacing: 2px; }
   .general-button:hover {
     cursor: pointer;
     box-shadow: inset 0 0 40px 2px rgba(0, 0, 0, 0.3);
     transition: 0.5s; }
 
 .step-button-style {
-  width: 160px;
-  height: 38px;
+  width: 160px !important;
+  height: 38px !important;
   line-height: 1.5;
   font-size: 12px;
   margin-top: 25px; }
 
 .white-navbar-button-margin {
   margin-top: 5px;
-  margin-left: 10px; }
+  margin-left: 15px; }
 
 .dark-hover-shadow:hover {
   opacity: 0.7;
-  box-shadow: none;
-  transition: none; }
+  box-shadow: none; }
 
 .active {
   background-color: #74a1d2 !important;
@@ -204,7 +210,4 @@ header, section, footer {
     color: #4094ed; }
     .underline:hover:after {
       width: 100%; }
-
-a:focus {
-  text-decoration: none !important; }
 

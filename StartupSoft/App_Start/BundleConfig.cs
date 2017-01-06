@@ -25,7 +25,7 @@ namespace StartupSoft
 
             bundles.Add(new ScriptBundle("~/bundles/main").Include(
                     "~/Scripts/wow.min.js",
-                    "~/Scripts/animations.min.js",
+                    "~/Scripts/animations.js",
                     "~/Scripts/checkLength.js"
                 ));
 
@@ -40,7 +40,7 @@ namespace StartupSoft
 
             bundles.Add(new StyleBundle("~/Content/css").Include(
                       "~/Content/bootstrap.min.css",
-                       "~/Content/animate.min.css",
+                       "~/Content/animate.css",
                        "~/Content/styles_sass/about_us.min.css",
                        "~/Content/styles_sass/contact-us.min.css",
                        "~/Content/styles_sass/faq.min.css",
