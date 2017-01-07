@@ -42,16 +42,11 @@
     @Scripts.Render("~/bundles/angular")
     @Scripts.Render("~/bundles/angular-comp")
     @RenderSection("scripts", required: false)
+    <script src="~/Scripts/wow.min.js"></script>
     <script>
-      wow = new WOW(
-        {
-          boxClass: 'wow',
-          animateClass: 'animated',
-          offset: 0,
-          mobile: false,
-          live: true
-        })
-      wow.init();
+        $(window).load(function () {
+            new WOW().init();
+        });
     </script>
     <!--------------------------google analytics----------------->
     <script>

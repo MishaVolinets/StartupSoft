@@ -24,7 +24,6 @@ namespace StartupSoft
                       "~/Scripts/respond.min.js"));
 
             bundles.Add(new ScriptBundle("~/bundles/main").Include(
-                    "~/Scripts/wow.min.js",
                     "~/Scripts/animations.js",
                     "~/Scripts/checkLength.js"
                 ));
@@ -40,7 +39,6 @@ namespace StartupSoft
 
             bundles.Add(new StyleBundle("~/Content/css").Include(
                       "~/Content/bootstrap.min.css",
-                       "~/Content/animate.css",
                        "~/Content/styles_sass/about_us.min.css",
                        "~/Content/styles_sass/contact-us.min.css",
                        "~/Content/styles_sass/faq.min.css",
@@ -51,7 +49,9 @@ namespace StartupSoft
                        "~/Content/styles_sass/modal.min.css",
                        "~/Content/styles_sass/testemonials.min.css",
                        "~/Content/styles_sass/white_header.min.css",
-                       "~/Content/styles_sass/media-style.min.css"));
+                       "~/Content/styles_sass/media-style.min.css",
+                       "~/Content/styles_sass/animate.css")
+                       );
         }
     }
 }

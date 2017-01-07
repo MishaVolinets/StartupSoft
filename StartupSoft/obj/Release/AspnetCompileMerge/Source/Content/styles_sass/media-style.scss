@@ -96,6 +96,12 @@
     margin: 0 auto;
     min-height: 360px;
   }
+  .mobile-button-aplly{
+    display: block !important;
+  }
+  .white-navbar-button-margin{
+    display: none;
+  }
 }
 
 @media only screen and (max-width: 992px) and (min-width: 776px) {
@@ -115,12 +121,7 @@
       }
     }
   }
-  .white-navbar-button-margin{
-    display: none;
-  }
-  .mobile-button-aplly{
-    display: block !important;
-  }
+  
   .step-second-block .step-information-block .bussines-image-block{
     width: 65%;
     min-height: 390px;

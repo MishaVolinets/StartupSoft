@@ -207,7 +207,6 @@ E:\Programming\SSFront\SSMY\StartupSoft\StartupSoft\bin\System.Web.WebPages.Depl
 E:\Programming\SSFront\SSMY\StartupSoft\StartupSoft\bin\System.Web.WebPages.Razor.xml
 E:\Programming\SSFront\SSMY\StartupSoft\StartupSoft\bin\Antlr3.Runtime.pdb
 E:\Programming\SSFront\SSMY\StartupSoft\StartupSoft\bin\Newtonsoft.Json.xml
-E:\Programming\SSFront\SSMY\StartupSoft\StartupSoft\obj\Release\StartupSoft.csprojResolveAssemblyReference.cache
 E:\Programming\SSFront\SSMY\StartupSoft\StartupSoft\obj\Release\StartupSoft.dll
 E:\Programming\SSFront\SSMY\StartupSoft\StartupSoft\obj\Release\StartupSoft.pdb
 D:\Sturtup\back-end projects\startup\StartupSoft\bin\ApplicationInsights.config
@@ -263,3 +262,4 @@ D:\Sturtup\back-end projects\startup\StartupSoft\bin\Newtonsoft.Json.xml
 D:\Sturtup\back-end projects\startup\StartupSoft\obj\Release\StartupSoft.csprojResolveAssemblyReference.cache
 D:\Sturtup\back-end projects\startup\StartupSoft\obj\Release\StartupSoft.dll
 D:\Sturtup\back-end projects\startup\StartupSoft\obj\Release\StartupSoft.pdb
+E:\Programming\SSFront\SSMY\StartupSoft\StartupSoft\obj\Release\StartupSoft.csprojResolveAssemblyReference.cache

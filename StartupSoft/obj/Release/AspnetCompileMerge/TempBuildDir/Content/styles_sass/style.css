@@ -247,7 +247,8 @@ header {
     .step-second-block .step-information-block .step-information-text {
       font-size: 16px;
       font-family: MuseoSansLight;
-      color: #777; }
+      color: #777;
+      display: inline-block; }
     .step-second-block .step-information-block .step-team-icon {
       display: inline-block;
       height: 105px;
