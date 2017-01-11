@@ -30,7 +30,8 @@ namespace StartupSoft
 
             bundles.Add(new ScriptBundle("~/bundles/angular").Include(
                 "~/Scripts/angular.min.js",
-                "~/Scripts/angular-ui-router.min.js"
+                "~/Scripts/angular-ui-router.min.js",
+                "~/Scripts/ngprogress.js"
             ));
 
             bundles.Add(new ScriptBundle("~/bundles/angular-comp").Include(
@@ -58,6 +59,7 @@ namespace StartupSoft
                        "~/Content/styles_sass/testemonials.min.css",
                        "~/Content/styles_sass/white_header.min.css",
                        "~/Content/styles_sass/media-style.min.css",
+                       "~/Content/ngProgress.css",
                        "~/Content/styles_sass/animate.css")
                        );
         }

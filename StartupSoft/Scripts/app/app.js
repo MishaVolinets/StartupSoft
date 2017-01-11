@@ -1,4 +1,5 @@
 ﻿angular.module('startupsoft', ['ui.router',
+    'ngProgress',
     'ss.home',
     'ss.homeComponents',
     'ss.homeDirectives',
@@ -17,6 +18,18 @@
         $urlRouterProvider.otherwise("/notfound");
 
     }])
-    .run(['$rootScope', '$state', function ($rootScope, $state) {
+    .run(['$rootScope', '$state', 'ngProgressFactory', function ($rootScope, $state, ngProgressFactory) {
         $rootScope.$state = $state;
+
+        var progressBar = ngProgressFactory.createInstance();
+        progressBar.setColor('#4094ed');
+
+        $rootScope.$on('$stateChangeStart', function (event, toState, toParams, fromState, fromParams) {
+            progressBar.start();
+        });
+
+        $rootScope.$on('$stateChangeSuccess', function (event, toState, toParams, fromState, fromParams) {
+            progressBar.complete();
+        });
+
     }]);

@@ -162,6 +162,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\ngProgress.css" />
     <Content Include="Content\styles_sass\animate.css" />
     <Content Include="Content\animate.min.css" />
     <Content Include="Content\bootstrap.css" />
@@ -316,6 +317,7 @@
     <Content Include="Scripts\jquery-2.2.0.min.js" />
     <Content Include="Scripts\motion-ui.js" />
     <Content Include="Scripts\motion-ui.min.js" />
+    <Content Include="Scripts\ngprogress.js" />
     <Content Include="Scripts\sendForm.js" />
     <Content Include="Scripts\wow.min.js" />
     <Content Include="sitemap.xml">

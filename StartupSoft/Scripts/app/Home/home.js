@@ -3,7 +3,7 @@
         .config(['$stateProvider', function ($stateProvider) {
             $stateProvider.state('home', {
                 url: '/',
-                templateUrl: '/Home/Index',
+                template: '<home-page></home-page>',
                 data: {
                     pageTitle: 'StartupSoft'
                 }
