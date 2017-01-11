@@ -162,6 +162,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\img\BM-image.gif" />
     <Content Include="Content\styles_sass\animate.css" />
     <Content Include="Content\animate.min.css" />
     <Content Include="Content\bootstrap.css" />
@@ -171,7 +172,6 @@
     <Content Include="Content\img\about.jpg" />
     <Content Include="Content\img\advising.png" />
     <Content Include="Content\img\animation.gif" />
-    <Content Include="Content\img\BM-image.gif" />
     <Content Include="Content\img\design-img.png" />
     <Content Include="Content\img\design-img_1.png" />
     <Content Include="Content\img\design-img_2.png" />

@@ -275,7 +275,14 @@ header {
       background-image: url("/Content/img/advising.png"); }
     .step-second-block .step-information-block .bussines-image {
       background-image: url("/Content/img/BM-image.gif");
-      background-size: cover; }
+      background-size: cover;
+      position: relative; }
+      .step-second-block .step-information-block .bussines-image .linkin-link-bisines-image {
+        position: absolute;
+        bottom: 27%;
+        right: 32%;
+        width: 140px;
+        height: 140px; }
     .step-second-block .step-information-block .text-with-icon {
       display: inline-block;
       width: 70%;

@@ -64,9 +64,12 @@
       }
     }
     .bussines-image-block{
-    width: 55%;
+    width: 52%;
     margin: 0 auto;
     min-height: 360px;
+    .linkin-link-bisines-image{
+      bottom: 23%;
+    }
   }
       .design-image-block{
         width: 50%;
@@ -368,8 +371,7 @@
         }
         &:nth-child(5) {
           top: 7%;
-          right: 26%;
-          left: 0;
+          left: 48%;
         }
         &:nth-child(6) {
           top: 38%;

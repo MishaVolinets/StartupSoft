@@ -224,6 +224,14 @@ header {
     .bussines-image{
       background-image: url("/Content/img/BM-image.gif");
       background-size: cover;
+      position: relative;
+      .linkin-link-bisines-image{
+        position: absolute;
+        bottom: 27%;
+        right: 32%;
+        width: 140px;
+        height: 140px;
+      }
     }
     .text-with-icon {
       display: inline-block;

@@ -129,9 +129,11 @@
       .step-second-block .step-information-block .mvp-image-block .mvp-img:nth-child(6) {
         right: 8%; }
       .step-second-block .step-information-block .bussines-image-block {
-        width: 55%;
+        width: 52%;
         margin: 0 auto;
         min-height: 360px; }
+        .step-second-block .step-information-block .bussines-image-block .linkin-link-bisines-image {
+          bottom: 23%; }
       .step-second-block .step-information-block .design-image-block {
         width: 50%;
         margin: 0 auto; }
@@ -323,8 +325,7 @@
       right: 26%; }
     .step-second-block .step-information-block .mvp-image-block .mvp-img:nth-child(5) {
       top: 7%;
-      right: 26%;
-      left: 0; }
+      left: 48%; }
     .step-second-block .step-information-block .mvp-image-block .mvp-img:nth-child(6) {
       top: 38%;
       right: 26%; } }
