@@ -18,7 +18,7 @@
 
     elastic.$inject = ["$timeout"];
 
-    angular.module('ss.common',[])
+    angular.module('ss.common')
         .directive('elastic', elastic);
 
 })();

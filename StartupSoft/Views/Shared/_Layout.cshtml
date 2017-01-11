@@ -7,34 +7,15 @@
     description" />
     <meta name="description" content="StartupSoft is a tech partner with startups. We bring their service or product to life in exchange for equity. If you are looking for cofounder or a business partner - you are in the right place." />
     <meta name="google-site-verification" content="30GFHU62ZaYiCdtSA8-hfCLmbeWhDecXE5YwacCNYb4" />
-    <title>Startup Soft</title>
+    <title ng-bind="$state.current.data.pageTitle"></title>
     @Styles.Render("~/Content/css")
     @Scripts.Render("~/bundles/modernizr")
     <link rel="shortcut icon" href="/Content/img/favicon.png" type="image/x-icon">
 </head>
-<body>
+<body ng-controller="bodyCtrl as $ctrl">
+    <ui-view>
         @RenderBody()
-
-
-    @if (ViewBag.showFooter == null) {
-    <section class="find-out-block">
-        <span class="find-out-title-text wow fadeInDown"  data-wow-offset="1">Are you ready to turn your idea into a successful business?</span>
-        <form action="/callback">
-            <button type="submit" class="general-button find-out-button wow fadeInUp"  data-wow-offset="1">APPLY</button>
-        </form>
-    </section>
-    <footer>
-        <div class="container">
-            <div class="footer-column">
-                <a href="https://www.facebook.com/startupsoft.org/" target="_blank" class="footer-social-icons social-icons-links icon-facebook-letter-logo margin-right"></a>
-                @*<a href="#" target="_blank" class="footer-social-icons social-icons-links icon-twitter-logo-silhouette margin-right"></a>*@
-                <a href="https://www.linkedin.com/company/startupsoft-inc.?trk=top_nav_home" target="_blank" class="footer-social-icons social-icons-links icon-linkedin-logo"></a>
-            </div>
-            <div class="footer-column align-center"><span class="footer-text-information">© 2016   Startup Soft</span></div>
-            <div class="footer-column align-right"><span class="footer-text-information"><span class="margin-right icon-facebook-placeholder-for-locate-places-on-maps"></span>1 Yule Ave. Toronto, Ontario </span></div>
-        </div>
-    </footer>
-    }
+    </ui-view>
 
 
     @Scripts.Render("~/bundles/jquery")

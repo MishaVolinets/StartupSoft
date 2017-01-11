@@ -29,11 +29,19 @@ namespace StartupSoft
                 ));
 
             bundles.Add(new ScriptBundle("~/bundles/angular").Include(
-                "~/Scripts/angular.min.js"
+                "~/Scripts/angular.min.js",
+                "~/Scripts/angular-ui-router.min.js"
             ));
 
             bundles.Add(new ScriptBundle("~/bundles/angular-comp").Include(
                     "~/Scripts/app/app.js",
+                    "~/Scripts/app/Home/home.js",
+                    "~/Scripts/app/Home/homeComponents.js",
+                    "~/Scripts/app/Home/homeDirectives.js",
+                    "~/Scripts/app/layout/footerComponent.js",
+                    "~/Scripts/app/layout/loadingComponent.js",
+                    "~/Scripts/app/layout/layoutComponents.js",
+                    "~/Scripts/app/common/controllers.js",
                     "~/Scripts/app/common/directives.js"
                 ));
 

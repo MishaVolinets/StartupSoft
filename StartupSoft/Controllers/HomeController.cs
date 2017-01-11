@@ -10,21 +10,10 @@ namespace StartupSoft.Controllers
     {
         public ActionResult Index()
         {
-            return View();
-        }
-
-        public ActionResult About()
-        {
-            return View();
-        }
-
-        public ActionResult Testimonials() {
-            return View();
-        }
-
-        public ActionResult Contact()
-        {
-            return View();
+            if (Request.IsAjaxRequest())
+                return PartialView();
+            else
+                return View("~/Views/Shared/loading.cshtml");
         }
     }
 }
