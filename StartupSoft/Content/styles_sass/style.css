@@ -151,7 +151,8 @@ header {
         border-top: 25px solid rgba(120, 125, 128, 0.8); }
       header .main-navbar-block .navbar-logo-block .navbar-logo {
         width: 60px;
-        height: 60px; }
+        height: 60px;
+        border-radius: 5px; }
     header .main-navbar-block .navbar-menu {
       float: right; }
       header .main-navbar-block .navbar-menu ul {
@@ -203,7 +204,7 @@ header {
   font-family: MuseoSansLight; }
   .head-title .head-title-big-text {
     font-size: 50px;
-    font-family: MuseoSansLight; }
+    font-family: MuseoSansRegular; }
   .head-title .head-title-small-text {
     font-size: 28px;
     font-family: MuseoSansLightItalic;
