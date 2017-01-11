@@ -162,6 +162,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\loadingComponent.css" />
     <Content Include="Content\ngProgress.css" />
     <Content Include="Content\styles_sass\animate.css" />
     <Content Include="Content\animate.min.css" />

@@ -60,7 +60,8 @@ namespace StartupSoft
                        "~/Content/styles_sass/white_header.min.css",
                        "~/Content/styles_sass/media-style.min.css",
                        "~/Content/ngProgress.css",
-                       "~/Content/styles_sass/animate.css")
+                       "~/Content/styles_sass/animate.css",
+                       "~/Content/loadingComponent.css")
                        );
         }
     }
