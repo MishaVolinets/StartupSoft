@@ -150,6 +150,10 @@ header, section, footer {
   font-size: 12px;
   margin-top: 25px; }
 
+.send-small-btn {
+  border-radius: 25px;
+  width: 120px; }
+
 .white-navbar-button-margin {
   margin-top: 5px;
   margin-left: 15px; }

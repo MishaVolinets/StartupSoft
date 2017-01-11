@@ -1,5 +1,7 @@
 ﻿@import "var.scss";
 @import "font.scss";
+//    border-radius: 25px
+//    width: 120px
 
 html {
   font-family: sans-serif;
@@ -67,6 +69,7 @@ header {
       .navbar-logo {
         width: 60px;
         height: 60px;
+        border-radius: 5px;
       }
     }
     .navbar-menu {
@@ -131,7 +134,7 @@ header {
   font-family: MuseoSansLight;
   .head-title-big-text {
     font-size: 50px;
-    font-family: MuseoSansLight;
+    font-family: MuseoSansRegular;
   }
   .head-title-small-text {
     font-size: 28px;
@@ -221,6 +224,14 @@ header {
     .bussines-image{
       background-image: url("/Content/img/BM-image.gif");
       background-size: cover;
+      position: relative;
+      .linkin-link-bisines-image{
+        position: absolute;
+        bottom: 27%;
+        right: 32%;
+        width: 140px;
+        height: 140px;
+      }
     }
     .text-with-icon {
       display: inline-block;
