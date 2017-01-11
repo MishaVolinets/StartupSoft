@@ -101,11 +101,12 @@
   padding-left: 60px;
   padding-right: 60px;
   width: 100%; }
-  .white-navbar ul li a {
+  .white-navbar ul li span {
     color: #333333 !important;
     font-size: 15px;
-    padding-bottom: 0;
-    margin-bottom: 15px; }
+    padding: 15px 15px 0;
+    margin-bottom: 15px;
+    display: block; }
   .white-navbar ul .main-navbar-block .navbar-logo-block:after {
     display: none; }
   .white-navbar ul .main-navbar-block .navbar-logo-block {

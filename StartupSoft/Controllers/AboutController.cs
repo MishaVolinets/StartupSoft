@@ -11,7 +11,12 @@ namespace StartupSoft.Controllers
         // GET: About
         public ActionResult Index()
         {
-            return View();
+            if(Request.IsAjaxRequest())
+                return PartialView();
+            else
+            {
+                return View("~/Views/Shared/loading.cshtml");
+            }
         }
     }
 }

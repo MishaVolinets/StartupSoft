@@ -161,13 +161,13 @@ header {
         header .main-navbar-block .navbar-menu ul li {
           display: inline-block;
           font-size: 18px; }
-          header .main-navbar-block .navbar-menu ul li a {
+          header .main-navbar-block .navbar-menu ul li span {
             color: #ffffff;
             font-size: 15px;
             padding: 0 20px; }
-            header .main-navbar-block .navbar-menu ul li a:hover {
+            header .main-navbar-block .navbar-menu ul li span:hover {
               text-decoration: none; }
-            header .main-navbar-block .navbar-menu ul li a:focus {
+            header .main-navbar-block .navbar-menu ul li span:focus {
               text-decoration: none; }
   header .dark-bcg {
     z-index: -1;

@@ -301,6 +301,10 @@
     <Content Include="Content\styles_sass\modal.scss" />
     <Content Include="ClassDiagram1.cd" />
     <None Include="Scripts\jquery-2.2.0.intellisense.js" />
+    <Content Include="Scripts\app\About\about.js" />
+    <Content Include="Scripts\app\About\aboutComponents.js" />
+    <Content Include="Scripts\app\About\views\aboutBody.html" />
+    <Content Include="Scripts\app\About\views\aboutHeader.html" />
     <Content Include="Scripts\app\common\controllers.js" />
     <Content Include="Scripts\app\common\directives.js" />
     <Content Include="Scripts\app\Home\home.js" />
