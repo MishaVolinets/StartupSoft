@@ -151,7 +151,8 @@ header {
         border-top: 25px solid rgba(120, 125, 128, 0.8); }
       header .main-navbar-block .navbar-logo-block .navbar-logo {
         width: 60px;
-        height: 60px; }
+        height: 60px;
+        border-radius: 5px; }
     header .main-navbar-block .navbar-menu {
       float: right; }
       header .main-navbar-block .navbar-menu ul {
@@ -203,7 +204,7 @@ header {
   font-family: MuseoSansLight; }
   .head-title .head-title-big-text {
     font-size: 50px;
-    font-family: MuseoSansLight; }
+    font-family: MuseoSansRegular; }
   .head-title .head-title-small-text {
     font-size: 28px;
     font-family: MuseoSansLightItalic;
@@ -274,7 +275,14 @@ header {
       background-image: url("/Content/img/advising.png"); }
     .step-second-block .step-information-block .bussines-image {
       background-image: url("/Content/img/BM-image.gif");
-      background-size: cover; }
+      background-size: cover;
+      position: relative; }
+      .step-second-block .step-information-block .bussines-image .linkin-link-bisines-image {
+        position: absolute;
+        bottom: 27%;
+        right: 32%;
+        width: 140px;
+        height: 140px; }
     .step-second-block .step-information-block .text-with-icon {
       display: inline-block;
       width: 70%;
