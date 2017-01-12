@@ -264,7 +264,7 @@
       <DependentUpon>white_header.css</DependentUpon>
     </Content>
     <Content Include="robots.txt" />
-    <Content Include="Scripts\animations.js" />
+    <Content Include="Scripts\Scroll.js" />
     <Content Include="Scripts\animations.min.js" />
     <Content Include="Content\motion-ui\_settings.scss" />
     <Content Include="Content\motion-ui\_classes.scss" />

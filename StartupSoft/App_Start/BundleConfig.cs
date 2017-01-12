@@ -24,8 +24,8 @@ namespace StartupSoft
                       "~/Scripts/respond.min.js"));
 
             bundles.Add(new ScriptBundle("~/bundles/main").Include(
-                    "~/Scripts/animations.js",
-                    "~/Scripts/checkLength.js"
+                    "~/Scripts/checkLength.js",
+                    "~/Scripts/Scroll.js"
                 ));
 
             bundles.Add(new ScriptBundle("~/bundles/angular").Include(
