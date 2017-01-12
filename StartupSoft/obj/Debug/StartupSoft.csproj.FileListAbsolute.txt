@@ -422,3 +422,8 @@ D:\Sturtup\back-end projects\startupsoft-origin\StartupSoft\bin\Newtonsoft.Json.
 D:\Sturtup\back-end projects\startupsoft-origin\StartupSoft\obj\Debug\StartupSoft.csprojResolveAssemblyReference.cache
 D:\Sturtup\back-end projects\startupsoft-origin\StartupSoft\obj\Debug\StartupSoft.dll
 D:\Sturtup\back-end projects\startupsoft-origin\StartupSoft\obj\Debug\StartupSoft.pdb
+E:\Programming\SSFront\SSMY\StartupSoft\StartupSoft\bin\System.Net.Http.dll
+E:\Programming\SSFront\SSMY\StartupSoft\StartupSoft\bin\System.Net.Http.Formatting.dll
+E:\Programming\SSFront\SSMY\StartupSoft\StartupSoft\bin\System.Web.Http.dll
+E:\Programming\SSFront\SSMY\StartupSoft\StartupSoft\bin\System.Net.Http.Formatting.xml
+E:\Programming\SSFront\SSMY\StartupSoft\StartupSoft\bin\System.Web.Http.xml

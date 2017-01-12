@@ -6,23 +6,20 @@ using System.Net;
 using System.Net.Mail;
 using System.Text;
 using System.Text.RegularExpressions;
-using System.Threading.Tasks;
-using System.Web;
 using System.Web.Mvc;
+
 
 namespace StartupSoft.Controllers
 {
     public class EmailController : Controller
     {
-        public ActionResult Send(EmailModel model) {
+        public void Send(EmailModel model) {
             if (!String.IsNullOrWhiteSpace(model.FirstName) && !String.IsNullOrWhiteSpace(model.LastName))
                 model.Fullname = model.FirstName + " " + model.LastName; 
 
             var result = validEmail(model);
 
             sendEmail(model);
-
-            return Redirect("/result");   
         }
 
         private void sendEmail(EmailModel model)

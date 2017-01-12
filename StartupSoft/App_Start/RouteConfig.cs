@@ -16,6 +16,12 @@ namespace StartupSoft
             routes.MapMvcAttributeRoutes();
 
             routes.MapRoute(
+                name: "Result",
+                url: "result",
+                defaults: new { controller = "Home", action = "Index" }
+                );
+
+            routes.MapRoute(
                 name: "Contact",
                 url: "contact",
                 defaults: new { controller = "Home", action = "Index" }

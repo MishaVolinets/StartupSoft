@@ -4,7 +4,7 @@
         var factory = {};
 
         factory.sendEmail = function (emailModel) {
-            $http.post("/email/send",emailModel);
+            return $http.post("/email/send",emailModel);
         }
        
         return factory;

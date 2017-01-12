@@ -1,6 +1,6 @@
 ﻿(function () {
 
-    function contactBodyCtrl(emailService) {
+    function contactBodyCtrl($state,emailService) {
         var vm = this;
 
         vm.emailModel = {};
@@ -10,12 +10,15 @@
         vm.sendEmail = function (valid) {
             if(valid)
             {
-                emailService.sendEmail(vm.emailModel);
+                emailService.sendEmail(vm.emailModel)
+                    .then(function () {
+                        $state.go('result');
+                    });
             }
         }
     }
 
-    contactBodyCtrl.$inject = ['emailService'];
+    contactBodyCtrl.$inject = ['$state','emailService'];
 
     angular.module('startupsoft')
         .component('contactPage', {
