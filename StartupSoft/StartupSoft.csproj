@@ -160,6 +160,10 @@
   <ItemGroup>
     <Content Include="app\About\views\aboutPage.html" />
     <Content Include="app\common\services.js" />
+    <Content Include="app\Contact\contact.js" />
+    <Content Include="app\Contact\contactComponents.js" />
+    <Content Include="app\Contact\views\contactBody.html" />
+    <Content Include="app\Contact\views\contactPage.html" />
     <Content Include="app\Faq\faq.js" />
     <Content Include="app\Faq\faqComponents.js" />
     <Content Include="app\Faq\views\faqBody.html" />

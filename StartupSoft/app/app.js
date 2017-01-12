@@ -5,6 +5,7 @@
     'ss.homeDirectives',
     'ss.about',
     'ss.faq',
+    'ss.contact',
     'ss.layout',
     'ss.common'])
     .config(['$locationProvider', '$urlRouterProvider', '$httpProvider', function ($locationProvider, $urlRouterProvider, $httpProvider) {

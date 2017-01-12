@@ -1,0 +1,38 @@
+﻿<section class="contact-us">
+    <div class="container">
+        <div class="row">
+            <h1 class="center-tittle">CONTACT US</h1>
+        </div>
+        <div class="row">
+            <div class="contact-us-content">
+                <form action="/email/send">
+                    <input type="hidden" name="FromApply" value="false" />
+                    <div class="row">
+                        <div class="col-md-6 input-block-padding-right">
+                            <input type="text" name="Firstname" placeholder="First name" autofocus required />
+                        </div>
+                        <div class="col-md-6 input-block-padding-left">
+                            <input type="text" name="Lastname" placeholder="Last name" required />
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <input type="email" name="Email" placeholder="Email" required />
+
+                        </div>
+                        <div class="col-md-12">
+                            <dic class="contact-us-textarea" counter>
+                                <textarea placeholder="Massage" name="Description" id="Description" elastic required></textarea>
+                                <span id="counter">1000</span>
+                            </dic>
+                        </div>
+                        <div class="col-md-12">
+                            <button class="btn blue-button float-r" type="submit">Send</button>
+                        </div>
+
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>

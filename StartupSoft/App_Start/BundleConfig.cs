@@ -43,6 +43,8 @@ namespace StartupSoft
                     "~/app/About/aboutComponents.js",
                     "~/app/Faq/faq.js",
                     "~/app/Faq/faqComponents.js",
+                    "~/app/Contact/contact.js",
+                    "~/app/Contact/contactComponents.js",
                     "~/app/layout/footerComponent.js",
                     "~/app/layout/loadingComponent.js",
                     "~/app/layout/layoutComponents.js",

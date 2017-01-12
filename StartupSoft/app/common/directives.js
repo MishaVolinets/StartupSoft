@@ -16,9 +16,32 @@
         };
     }
 
+    function counter() {
+        return {
+            restrict: 'A',
+            link: function (scope, elem) {
+                var maxLength = 1000;
+                var textArea = elem.find('textarea');
+                var counter = elem.find('#counter');
+                textArea.on('input propertychange', function (e) {
+                    var text = textArea[0].value;
+                    var availableLength = maxLength - text.length;
+                    if (availableLength >= 0) {
+                        counter.text(availableLength);
+                    } else {
+                        var sliced = text.slice(0, 1000);
+                        textArea[0].value = sliced;
+                    }
+                });
+
+            }
+        }
+    }
+
     elastic.$inject = ["$timeout"];
 
     angular.module('ss.common')
-        .directive('elastic', elastic);
+        .directive('elastic', elastic)
+        .directive('counter', counter);
 
 })();
