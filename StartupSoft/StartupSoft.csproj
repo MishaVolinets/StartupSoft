@@ -168,6 +168,12 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="app\About\views\aboutPage.html" />
+    <Content Include="app\Callback\callback.js" />
+    <Content Include="app\Callback\callbackComponents.js" />
+    <Content Include="app\Callback\callbackService.js" />
+    <Content Include="app\Callback\views\callbackPage.html" />
+    <Content Include="app\Callback\views\firstStep.html" />
+    <Content Include="app\Callback\views\secondStep.html" />
     <Content Include="app\common\services.js" />
     <Content Include="app\Contact\contact.js" />
     <Content Include="app\Contact\contactComponents.js" />

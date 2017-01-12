@@ -2,17 +2,28 @@
     <div class="container">
         <div class="row">
             <div class="center-container">
-                <a class="navigation-link" href="/callback"><span class="icon-last-track-left-arrow"></span> PREVIOUS QUESTION</a>
+                <span class="navigation-link" ng-click="$ctrl.goToNextStep(true,1)"><span class="icon-last-track-left-arrow"></span> PREVIOUS QUESTION</span>
+                <form ng-submit="$ctrl.sendEmail(sendEmail.$valid)" name="sendEmail" novalidate>
+                    <div class="form-container">
+                        <h1 class="center-tittle">Tell us briefly about your project</h1>
+                        <div ng-messages="sendEmail.projectName.$error" ng-if="sendEmail.projectName.$touched">
+                            <div ng-message="required" class="alert error-masssage">• Project name is required</div>
+                            <div ng-message="maxlength" class="alert error-masssage">• Project name should be less 50 charapters</div>
+                        </div>
 
-                <div class="form-container">
-                    <h1 class="center-tittle">Tell us briefly about your project</h1>
-                        <input type="text" name="ProjectName" placeholder="Project name" autofocus required />
+                        <div ng-messages="sendEmail.description.$error" ng-if="sendEmail.description.$touched">
+                            <div ng-message="required" class="alert error-masssage">• Description is required</div>
+                            <div ng-message="maxlength" class="alert error-masssage">• Description should be less 1000 charapters</div>
+                        </div>
+
+                        <input type="text" name="projectName" placeholder="Project name" autofocus ng-model="$ctrl.service.emailModel.projectName" ng-maxlength="50" ng-required="true" />
                         <br />
-                        <textarea name="Description" placeholder="Description" required></textarea>
+                        <textarea name="description" placeholder="Description" ng-model="$ctrl.service.emailModel.description" ng-maxlength="1000" ng-required="true"></textarea>
                         <div class="form-button">
                             <button class="btn blue-button" type="submit">Apply</button>
                         </div>
-                </div>
+                    </div>
+                </form>
             </div>
             <span class="page-number">2/2</span>
         </div>
