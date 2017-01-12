@@ -273,6 +273,7 @@
       <DependentUpon>white_header.css</DependentUpon>
     </Content>
     <Content Include="robots.txt" />
+    <Content Include="Scripts\angular-messages.js" />
     <Content Include="Scripts\animations.js" />
     <Content Include="Scripts\animations.min.js" />
     <Content Include="Content\motion-ui\_settings.scss" />

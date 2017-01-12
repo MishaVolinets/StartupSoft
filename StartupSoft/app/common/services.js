@@ -1,12 +1,18 @@
 ﻿(function () {
 
-    function (){
+    function emailService($http){
         var factory = {};
 
-        factory.goTo = function (url) {
-
+        factory.sendEmail = function (emailModel) {
+            $http.post("/email/send",emailModel);
         }
+       
+        return factory;
     }
 
+    emailService.$inject = ['$http'];
+
+    angular.module('ss.common')
+        .factory('emailService',emailService);
 
 })();

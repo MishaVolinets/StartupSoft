@@ -31,7 +31,8 @@ namespace StartupSoft
             bundles.Add(new ScriptBundle("~/bundles/angular").Include(
                 "~/Scripts/angular.min.js",
                 "~/Scripts/angular-ui-router.min.js",
-                "~/Scripts/ngprogress.js"
+                "~/Scripts/ngprogress.js",
+                "~/Scripts/angular-messages.js"
             ));
 
             bundles.Add(new ScriptBundle("~/bundles/angular-comp").Include(
@@ -49,7 +50,8 @@ namespace StartupSoft
                     "~/app/layout/loadingComponent.js",
                     "~/app/layout/layoutComponents.js",
                     "~/app/common/controllers.js",
-                    "~/app/common/directives.js"
+                    "~/app/common/directives.js",
+                    "~/app/common/services.js"
                 ));
 
             bundles.Add(new StyleBundle("~/Content/css").Include(

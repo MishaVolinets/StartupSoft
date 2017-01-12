@@ -28,9 +28,6 @@
                     var availableLength = maxLength - text.length;
                     if (availableLength >= 0) {
                         counter.text(availableLength);
-                    } else {
-                        var sliced = text.slice(0, 1000);
-                        textArea[0].value = sliced;
                     }
                 });
 

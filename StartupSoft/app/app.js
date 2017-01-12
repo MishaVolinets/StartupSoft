@@ -1,5 +1,6 @@
 ﻿angular.module('startupsoft', ['ui.router',
     'ngProgress',
+    'ngMessages',
     'ss.home',
     'ss.homeComponents',
     'ss.homeDirectives',
