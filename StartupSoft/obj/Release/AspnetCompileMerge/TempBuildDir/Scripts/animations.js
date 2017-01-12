@@ -23,7 +23,7 @@ $SecondMenu = $('#SecondPageMenu');
 
 
 $(window).scroll(function(){
-        $('.step-blue-indicator').each(function(){
+    $('.step-blue-indicator').each(function () {
             if($(this).offset().top>=$(window).scrollTop() && $(this).offset().top<$(window).scrollTop()+400){
                 $('active').removeClass('active');
                 $(this).addClass('active');
@@ -34,14 +34,14 @@ $(window).scroll(function(){
         });
 
 
-        var ScrollPosition = $(this).scrollTop();
-        if(ScrollPosition>150){
-          $menu.removeClass('white-navbar-display-none').addClass('white-navbar-display');
-          $SecondMenu.removeClass('white-navbar-second-page').addClass('white-navbar-display-fixed');
-        } else if (ScrollPosition<150){
-          $menu.removeClass('white-navbar-display').addClass('white-navbar-display-none');
-          $SecondMenu.removeClass('white-navbar-display-fixed').addClass('white-navbar-second-page');
-        }
+        //var ScrollPosition = $(this).scrollTop();
+        //if(ScrollPosition>150){
+        //  $menu.removeClass('white-navbar-display-none').addClass('white-navbar-display');
+        //  $SecondMenu.removeClass('white-navbar-second-page').addClass('white-navbar-display-fixed');
+        //} else if (ScrollPosition<150){
+        //  $menu.removeClass('white-navbar-display').addClass('white-navbar-display-none');
+        //  $SecondMenu.removeClass('white-navbar-display-fixed').addClass('white-navbar-second-page');
+        //}
 
 
     });

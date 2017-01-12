@@ -148,12 +148,16 @@
 .input-block-padding-right {
   padding-right: 5px; }
 
-.error {
-  padding: 5px;
-  text-align: center;
-  background-color: #f2dede;
-  color: #a94442;
-  display: none; }
+.error-masssage {
+  border-radius: 0;
+  background-color: #fff;
+  margin: 0 0 10px 0;
+  padding: 0;
+  color: #a94442; }
+
+input.ng-invalid.ng-touched,
+textarea.ng-invalid.ng-touched {
+  border: 2px solid #dd4b39; }
 
 @media (max-width: 998px) {
   .contact-us-content {

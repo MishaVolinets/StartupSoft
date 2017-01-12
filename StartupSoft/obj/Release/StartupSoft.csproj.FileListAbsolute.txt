@@ -263,3 +263,8 @@ D:\Sturtup\back-end projects\startup\StartupSoft\obj\Release\StartupSoft.csprojR
 D:\Sturtup\back-end projects\startup\StartupSoft\obj\Release\StartupSoft.dll
 D:\Sturtup\back-end projects\startup\StartupSoft\obj\Release\StartupSoft.pdb
 E:\Programming\SSFront\SSMY\StartupSoft\StartupSoft\obj\Release\StartupSoft.csprojResolveAssemblyReference.cache
+E:\Programming\SSFront\SSMY\StartupSoft\StartupSoft\bin\System.Net.Http.dll
+E:\Programming\SSFront\SSMY\StartupSoft\StartupSoft\bin\System.Net.Http.Formatting.dll
+E:\Programming\SSFront\SSMY\StartupSoft\StartupSoft\bin\System.Web.Http.dll
+E:\Programming\SSFront\SSMY\StartupSoft\StartupSoft\bin\System.Net.Http.Formatting.xml
+E:\Programming\SSFront\SSMY\StartupSoft\StartupSoft\bin\System.Web.Http.xml

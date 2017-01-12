@@ -1,0 +1,33 @@
+﻿<section class="forms">
+    <div class="container">
+        <div class="row">
+            <div class="center-container">
+                <span class="navigation-link"  ng-click="$ctrl.back()"><span class="icon-last-track-left-arrow"></span> BACK</span>
+                <div class="form-container" ng-form name="sendEmail">
+                    <h1 class="center-tittle">Please, fill in your data.</h1>
+                    <div ng-messages="sendEmail.fullName.$error" ng-if="sendEmail.fullName.$touched">
+                        <div ng-message="required" class="alert error-masssage">• Full name is required</div>
+                        <div ng-message="maxlength" class="alert error-masssage">• Full name should be less 100 charapters</div>
+                    </div>
+                    <div ng-messages="sendEmail.email.$error" ng-if="sendEmail.email.$touched">
+                        <div ng-message="required" class="alert error-masssage">• Email is required</div>
+                        <div ng-message="maxlength" class="alert error-masssage">• Email should be less 50 charapters</div>
+                        <div ng-message="email" class="alert error-masssage">• Please, enter valid email address</div>
+                    </div>
+                    <div ng-messages="sendEmail.skype.$error" ng-if="sendEmail.skype.$touched">
+                        <div ng-message="maxlength" class="alert error-masssage">• Skype name should be less 50 charapters</div>
+                    </div>
+                    <input type="text" placeholder="Full name" name="fullName" autofocus ng-model="$ctrl.service.emailModel.fullName" ng-maxlength="100" ng-required="true" />
+                    <br />
+                    <input type="email" placeholder="Email" name="email" ng-model="$ctrl.service.emailModel.email" ng-maxlength="50" ng-required="true" />
+                    <br />
+                    <input type="text" placeholder="Skype" name="skype" ng-model="$ctrl.service.emailModel.skype" ng-maxlength="50" />
+                    <div class="form-button">
+                        <button class="btn blue-button" type="button" ng-click="$ctrl.goToNextStep(sendEmail.$valid,2)">Next step</button>
+                    </div>
+                </div>
+            </div>
+            <span class="page-number">1/2</span>
+        </div>
+    </div>
+</section>

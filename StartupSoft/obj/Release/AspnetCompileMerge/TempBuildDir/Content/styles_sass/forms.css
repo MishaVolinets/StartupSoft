@@ -163,7 +163,8 @@ textarea:focus {
   margin-top: 10px; }
 
 .navigation-link {
-  color: #4094ED; }
+  color: #4094ED;
+  cursor: pointer; }
 
 .navigation-link:hover {
   text-decoration: none;
