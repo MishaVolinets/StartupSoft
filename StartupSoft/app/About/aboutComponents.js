@@ -3,12 +3,12 @@
 
     angular.module('startupsoft')
         .component('aboutPage', {
-            templateUrl: '/about'
+            templateUrl: '/app/About/views/aboutPage.html'
         })
         .component('aboutHeader', {
-            templateUrl: '/Scripts/app/About/views/aboutHeader.html'
+            templateUrl: '/app/About/views/aboutHeader.html'
         })
         .component('aboutBody', {
-            templateUrl: '/Scripts/app/About/views/aboutBody.html'
+            templateUrl: '/app/About/views/aboutBody.html'
         });
 })();

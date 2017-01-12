@@ -6,10 +6,11 @@
                 <ul>
                     <li><span ui-sref="home" class="underline">HOME</span></li>
                     <li><span ui-sref="about" class="underline">ABOUT US</span></li>
-                    <li><span href="http://blog.startupsoft.org/" target="_blank" class="underline">BLOG</span></li>
-                    <li><span href="https://startupers.us/" target="_blank" class="underline">STARTUPERS.US</span></li>
-                    <li><span href="/faq" class="underline">FAQ</span></li>
-                    <li><span href="/contact" class="underline">CONTACT US</span></li>
+                    <li><span ng-click="$ctrl.goTo('http://blog.startupsoft.org/')" class="underline">BLOG</span></li>
+                    <li><span ng-click="$ctrl.goTo('https://startupers.us/')" class="underline">STARTUPERS.US</span></li>
+                    <li><span class="underline">FAQ</span></li>
+                    <li><span class="underline">CONTACT US</span></li>
+                    <li><span class="underline mobile-button-aplly">APPLY</span></li>
                 </ul>
             </div>
         </nav>

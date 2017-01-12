@@ -6,7 +6,7 @@
 
     angular.module('ss.layout',[])
         .component('footerComponent', {
-            templateUrl: '/Scripts/app/layout/footer.html',
+            templateUrl: '/app/layout/footer.html',
             controller: footerController
         });
 })();

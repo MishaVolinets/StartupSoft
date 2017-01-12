@@ -13,7 +13,7 @@
 
     angular.module('ss.layout')
         .component('loadingComponent', {
-            templateUrl: "/Scripts/app/layout/loadingComponent.html",
+            templateUrl: "/app/layout/loadingComponent.html",
             controller: loadingController
         });
 })();

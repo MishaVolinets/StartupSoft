@@ -35,17 +35,17 @@ namespace StartupSoft
             ));
 
             bundles.Add(new ScriptBundle("~/bundles/angular-comp").Include(
-                    "~/Scripts/app/app.js",
-                    "~/Scripts/app/Home/home.js",
-                    "~/Scripts/app/Home/homeComponents.js",
-                    "~/Scripts/app/Home/homeDirectives.js",
-                    "~/Scripts/app/About/about.js",
-                    "~/Scripts/app/About/aboutComponents.js",
-                    "~/Scripts/app/layout/footerComponent.js",
-                    "~/Scripts/app/layout/loadingComponent.js",
-                    "~/Scripts/app/layout/layoutComponents.js",
-                    "~/Scripts/app/common/controllers.js",
-                    "~/Scripts/app/common/directives.js"
+                    "~/app/app.js",
+                    "~/app/Home/home.js",
+                    "~/app/Home/homeComponents.js",
+                    "~/app/Home/homeDirectives.js",
+                    "~/app/About/about.js",
+                    "~/app/About/aboutComponents.js",
+                    "~/app/layout/footerComponent.js",
+                    "~/app/layout/loadingComponent.js",
+                    "~/app/layout/layoutComponents.js",
+                    "~/app/common/controllers.js",
+                    "~/app/common/directives.js"
                 ));
 
             bundles.Add(new StyleBundle("~/Content/css").Include(

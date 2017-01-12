@@ -13,7 +13,7 @@
 
     angular.module('ss.layout')
         .component('navbartop', {
-            templateUrl: '/Scripts/app/layout/_navbarTop.html',
+            templateUrl: '/app/layout/_navbarTop.html',
             controller: navbartopController
         });
 })();
