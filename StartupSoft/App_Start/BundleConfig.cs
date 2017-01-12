@@ -41,6 +41,8 @@ namespace StartupSoft
                     "~/app/Home/homeDirectives.js",
                     "~/app/About/about.js",
                     "~/app/About/aboutComponents.js",
+                    "~/app/Faq/faq.js",
+                    "~/app/Faq/faqComponents.js",
                     "~/app/layout/footerComponent.js",
                     "~/app/layout/loadingComponent.js",
                     "~/app/layout/layoutComponents.js",

@@ -150,10 +150,7 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\EmailController.cs" />
     <Compile Include="Controllers\CallBackController.cs" />
-    <Compile Include="Controllers\ContactController.cs" />
-    <Compile Include="Controllers\FaqController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
-    <Compile Include="Controllers\ResultController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -163,6 +160,10 @@
   <ItemGroup>
     <Content Include="app\About\views\aboutPage.html" />
     <Content Include="app\common\services.js" />
+    <Content Include="app\Faq\faq.js" />
+    <Content Include="app\Faq\faqComponents.js" />
+    <Content Include="app\Faq\views\faqBody.html" />
+    <Content Include="app\Faq\views\faqPage.html" />
     <Content Include="app\Home\views\homePage.html" />
     <Content Include="Content\loadingComponent.css" />
     <Content Include="Content\ngProgress.css" />
