@@ -19,8 +19,8 @@
 
 
 var $menu = $('#menu'),
-$SecondMenu = $('#SecondPageMenu');
-
+  $SecondMenu = $('#SecondPageMenu'),
+  $StepTwo = $('#StepTwoAnimation');
 
 $(window).scroll(function(){
         $('.step-blue-indicator').each(function(){
@@ -35,6 +35,7 @@ $(window).scroll(function(){
 
 
         var ScrollPosition = $(this).scrollTop();
+        console.log(ScrollPosition);
         if(ScrollPosition>150){
           $menu.removeClass('white-navbar-display-none').addClass('white-navbar-display');
           $SecondMenu.removeClass('white-navbar-second-page').addClass('white-navbar-display-fixed');
@@ -42,7 +43,8 @@ $(window).scroll(function(){
           $menu.removeClass('white-navbar-display').addClass('white-navbar-display-none');
           $SecondMenu.removeClass('white-navbar-display-fixed').addClass('white-navbar-second-page');
         }
-
-
+        if (ScrollPosition >= 900) {
+          $StepTwo.addClass('bussines-image-gif')
+        }
     });
 

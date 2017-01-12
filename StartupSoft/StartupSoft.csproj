@@ -162,6 +162,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\img\animation-4s.gif" />
+    <Content Include="Content\img\animation-img.png" />
+    <Content Include="Content\img\bg-img.png" />
     <Content Include="Content\img\BM-image.gif" />
     <Content Include="Content\styles_sass\animate.css" />
     <Content Include="Content\animate.min.css" />
