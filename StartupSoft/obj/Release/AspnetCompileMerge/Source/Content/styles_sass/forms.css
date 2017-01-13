@@ -179,10 +179,12 @@ textarea:focus {
   left: 0;
   width: 120px;
   padding-top: 25px;
-  text-align: center; }
+  text-align: center;
+  font-family: MuseoSansMedium; }
   .navigation-link:hover {
     background-color: rgba(242, 242, 242, 0.5);
-    text-decoration: none; }
+    text-decoration: none;
+    color: #888; }
 
 .apply-modal-button {
   display: block;

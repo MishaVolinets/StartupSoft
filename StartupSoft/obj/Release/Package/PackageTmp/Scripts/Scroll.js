@@ -19,9 +19,10 @@
 
 
 var $menu = $('#menu'),
-$SecondMenu = $('#SecondPageMenu');
-
-
+  $SecondMenu = $('#SecondPageMenu'),
+  $StepTwo = $('#StepTwoAnimation'),
+  $StepFour = $('#StepFourAnimation'),
+  $Button = $('#whiteHeaderBtn');
 $(window).scroll(function(){
         $('.step-blue-indicator').each(function(){
             if($(this).offset().top>=$(window).scrollTop() && $(this).offset().top<$(window).scrollTop()+400){
@@ -38,11 +39,17 @@ $(window).scroll(function(){
         if(ScrollPosition>150){
           $menu.removeClass('white-navbar-display-none').addClass('white-navbar-display');
           $SecondMenu.removeClass('white-navbar-second-page').addClass('white-navbar-display-fixed');
+          $Button.addClass('white-navbar-button-display-block');
         } else if (ScrollPosition<150){
           $menu.removeClass('white-navbar-display').addClass('white-navbar-display-none');
           $SecondMenu.removeClass('white-navbar-display-fixed').addClass('white-navbar-second-page');
+          $Button.removeClass('white-navbar-button-display-block');
         }
-
-
+        if (ScrollPosition >= 900) {
+          $StepTwo.addClass('bussines-image-gif');
+        }
+        if (ScrollPosition >= 1700) {
+          $StepFour.addClass('step-inimation-inner-block-add-amination');
+        }
     });
 
