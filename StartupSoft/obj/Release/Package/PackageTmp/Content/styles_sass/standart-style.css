@@ -156,7 +156,11 @@ header, section, footer {
 
 .white-navbar-button-margin {
   margin-top: 5px;
-  margin-left: 15px; }
+  margin-left: 15px;
+  display: none; }
+
+.white-navbar-button-display-block {
+  display: block; }
 
 .dark-hover-shadow:hover {
   opacity: 0.7;
