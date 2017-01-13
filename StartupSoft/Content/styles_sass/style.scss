@@ -213,6 +213,13 @@ header {
         right: 0;
       }
     }
+    .step-team-icon-mobile-display{
+    display: none;
+    }
+    .step-team-icom-margin-left{
+      margin-right: 0;
+      margin-left: 25px;
+    }
     .bussines-image-block{
       width: 80%;
       min-height: 380px;
@@ -220,6 +227,9 @@ header {
     }
     .advanser-icon {
       background-image: url("/Content/img/advising.png");
+    }
+    .marketing-icon{
+      background-image: url("/Content/img/marketing.png");
     }
     .bussines-image{
       background-image: url("/Content/img/bg-img.png");
@@ -245,15 +255,11 @@ header {
       width: 100%;
       min-height: 260px;
       margin-top: 30px;
-      .step-animatin-inner-block{
+      img {
         width: 100%;
-        min-height: 260px;
-        margin: 0 auto;
+        height: auto;
         overflow: hidden;
         border-radius: 10px;
-        background-image: url("/Content/img/animation-img.png");
-        background-size: contain;
-        background-repeat: no-repeat;
       }
       .step-inimation-inner-block-add-amination{
         background-image: url("/Content/img/animation-4s.gif")

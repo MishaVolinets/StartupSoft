@@ -123,6 +123,12 @@ header, section, footer {
 .display-block {
   display: inline-block; }
 
+.step-text-pading-left {
+  padding-left: 30px; }
+
+.step-text-pading-right {
+  padding-right: 30px; }
+
 /*----------------general-button-style-----------------*/
 .general-button {
   background-color: #4094ed;

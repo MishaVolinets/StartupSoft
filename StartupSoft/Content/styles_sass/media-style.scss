@@ -53,6 +53,15 @@
     .step-information-block {
       width: 100%;
       margin-bottom: 25px;
+      .step-team-icon-mobile-display{
+      display: inline-block;
+      }
+      .step-team-icon-mobile-display-none{
+      display: none;
+      }
+      .step-information-text{
+      padding: 0;
+      }
       .mvp-image-block {
         .mvp-img {
           &:nth-child(4) {
