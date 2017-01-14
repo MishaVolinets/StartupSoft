@@ -1,5 +1,7 @@
 ﻿@import "var.scss";
 @import "font.scss";
+//    border-radius: 25px
+//    width: 120px
 
 html {
   font-family: sans-serif;
@@ -67,6 +69,7 @@ header {
       .navbar-logo {
         width: 60px;
         height: 60px;
+        border-radius: 5px;
       }
     }
     .navbar-menu {
@@ -131,7 +134,7 @@ header {
   font-family: MuseoSansLight;
   .head-title-big-text {
     font-size: 50px;
-    font-family: MuseoSansLight;
+    font-family: MuseoSansRegular;
   }
   .head-title-small-text {
     font-size: 28px;
@@ -210,6 +213,13 @@ header {
         right: 0;
       }
     }
+    .step-team-icon-mobile-display{
+    display: none;
+    }
+    .step-team-icom-margin-left{
+      margin-right: 0;
+      margin-left: 25px;
+    }
     .bussines-image-block{
       width: 80%;
       min-height: 380px;
@@ -218,9 +228,23 @@ header {
     .advanser-icon {
       background-image: url("/Content/img/advising.png");
     }
+    .marketing-icon{
+      background-image: url("/Content/img/marketing.png");
+    }
     .bussines-image{
-      background-image: url("/Content/img/BM-image.gif");
+      background-image: url("/Content/img/bg-img.png");
       background-size: cover;
+      position: relative;
+      .linkin-link-bisines-image{
+        position: absolute;
+        bottom: 27%;
+        right: 32%;
+        width: 140px;
+        height: 140px;
+      }
+    }
+    .bussines-image-gif{
+      background-image: url("/Content/img/BM-image.gif");
     }
     .text-with-icon {
       display: inline-block;
@@ -229,13 +253,16 @@ header {
     }
     .step-animation-block{
       width: 100%;
-      min-height: 100px;
+      min-height: 260px;
       margin-top: 30px;
-      overflow: hidden;
-      border-radius: 10px;
-      img{
-      width: 100%;
-      height: auto;
+      img {
+        width: 100%;
+        height: auto;
+        overflow: hidden;
+        border-radius: 10px;
+      }
+      .step-inimation-inner-block-add-amination{
+        background-image: url("/Content/img/animation-4s.gif")
       }
     }
     .design-image-block {

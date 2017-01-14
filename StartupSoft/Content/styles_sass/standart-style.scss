@@ -39,7 +39,12 @@ display: inline-block;
 .display-block{
   display: inline-block;
 }
-
+.step-text-pading-left{
+  padding-left: 30px;
+}
+.step-text-pading-right{
+  padding-right: 30px;
+}
 /*----------------general-button-style-----------------*/
 
 .general-button {
@@ -70,10 +75,17 @@ display: inline-block;
       font-size: 12px;
       margin-top: 25px;
     }
-
+.send-small-btn{
+  border-radius: 25px;
+  width: 120px;
+}
 .white-navbar-button-margin{
   margin-top: 5px;
   margin-left: 15px;
+  display: none;
+}
+.white-navbar-button-display-block{
+display: block;
 }
 
 .dark-hover-shadow:hover {

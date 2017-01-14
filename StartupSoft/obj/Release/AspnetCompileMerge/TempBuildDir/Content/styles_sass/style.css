@@ -151,7 +151,8 @@ header {
         border-top: 25px solid rgba(120, 125, 128, 0.8); }
       header .main-navbar-block .navbar-logo-block .navbar-logo {
         width: 60px;
-        height: 60px; }
+        height: 60px;
+        border-radius: 5px; }
     header .main-navbar-block .navbar-menu {
       float: right; }
       header .main-navbar-block .navbar-menu ul {
@@ -203,7 +204,7 @@ header {
   font-family: MuseoSansLight; }
   .head-title .head-title-big-text {
     font-size: 50px;
-    font-family: MuseoSansLight; }
+    font-family: MuseoSansRegular; }
   .head-title .head-title-small-text {
     font-size: 28px;
     font-family: MuseoSansLightItalic;
@@ -273,21 +274,36 @@ header {
     .step-second-block .step-information-block .advanser-icon {
       background-image: url("/Content/img/advising.png"); }
     .step-second-block .step-information-block .bussines-image {
-      background-image: url("/Content/img/BM-image.gif");
-      background-size: cover; }
+      background-image: url("/Content/img/bg-img.png");
+      background-size: cover;
+      position: relative; }
+      .step-second-block .step-information-block .bussines-image .linkin-link-bisines-image {
+        position: absolute;
+        bottom: 27%;
+        right: 32%;
+        width: 140px;
+        height: 140px; }
+    .step-second-block .step-information-block .bussines-image-gif {
+      background-image: url("/Content/img/BM-image.gif"); }
     .step-second-block .step-information-block .text-with-icon {
       display: inline-block;
       width: 70%;
       margin-top: 15px; }
     .step-second-block .step-information-block .step-animation-block {
       width: 100%;
-      min-height: 100px;
-      margin-top: 30px;
-      overflow: hidden;
-      border-radius: 10px; }
-      .step-second-block .step-information-block .step-animation-block img {
+      min-height: 260px;
+      margin-top: 30px; }
+      .step-second-block .step-information-block .step-animation-block .step-animatin-inner-block {
         width: 100%;
-        height: auto; }
+        min-height: 260px;
+        margin: 0 auto;
+        overflow: hidden;
+        border-radius: 10px;
+        background-image: url("/Content/img/animation-img.png");
+        background-size: contain;
+        background-repeat: no-repeat; }
+      .step-second-block .step-information-block .step-animation-block .step-inimation-inner-block-add-amination {
+        background-image: url("/Content/img/animation-4s.gif"); }
     .step-second-block .step-information-block .design-image-block {
       width: 100%;
       min-height: 327px;

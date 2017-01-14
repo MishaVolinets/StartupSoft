@@ -116,7 +116,8 @@
   .white-navbar .header .main-navbar-block {
     height: auto; }
   .white-navbar .logo {
-    width: 50px; }
+    width: 50px;
+    border-radius: 5px; }
   .white-navbar .white-navbar-menu {
     float: right; }
 

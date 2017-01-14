@@ -102,6 +102,10 @@
     width: 65%; }
   .step-second-block .step-information-block .design-image-block {
     min-height: 267px; }
+  .step-second-block .step-information-block .mvp-image-block .mvp-img:nth-child(4) {
+    right: 0; }
+  .step-second-block .step-information-block .mvp-image-block .mvp-img:nth-child(6) {
+    right: 0; }
   .step-second-block .step-information-block .bussines-image-block {
     width: 100%;
     margin: 0; } }
@@ -120,6 +124,22 @@
     .step-second-block .step-information-block {
       width: 100%;
       margin-bottom: 25px; }
+      .step-second-block .step-information-block .step-team-icon-mobile-display {
+        display: inline-block; }
+      .step-second-block .step-information-block .step-team-icon-mobile-display-none {
+        display: none; }
+      .step-second-block .step-information-block .step-information-text {
+        padding: 0; }
+      .step-second-block .step-information-block .mvp-image-block .mvp-img:nth-child(4) {
+        right: 8%; }
+      .step-second-block .step-information-block .mvp-image-block .mvp-img:nth-child(6) {
+        right: 8%; }
+      .step-second-block .step-information-block .bussines-image-block {
+        width: 52%;
+        margin: 0 auto;
+        min-height: 360px; }
+        .step-second-block .step-information-block .bussines-image-block .linkin-link-bisines-image {
+          bottom: 23%; }
       .step-second-block .step-information-block .design-image-block {
         width: 50%;
         margin: 0 auto; }
@@ -154,10 +174,6 @@
   .navbar-brand {
     display: inline-block;
     padding: 7px 15px; }
-  .step-second-block .step-information-block .bussines-image-block {
-    width: 55%;
-    margin: 0 auto;
-    min-height: 360px; }
   .mobile-button-aplly {
     display: block !important; }
   .white-navbar-button-margin {
@@ -223,11 +239,34 @@
     width: 100%; } }
 
 @media only screen and (max-width: 579px) {
-  .mvp-image-block {
-    display: none; }
   .step-second-block .step-information-block .design-image-block {
     width: 70%;
     min-height: 173px; }
+  .step-second-block .step-information-block .mvp-image-block {
+    min-height: 350px; }
+    .step-second-block .step-information-block .mvp-image-block .mvp-img:last-child {
+      top: 34%;
+      left: 37%; }
+      .step-second-block .step-information-block .mvp-image-block .mvp-img:last-child img {
+        width: 100px; }
+    .step-second-block .step-information-block .mvp-image-block .mvp-img:first-child {
+      top: 60%;
+      left: 10%; }
+    .step-second-block .step-information-block .mvp-image-block .mvp-img:nth-child(2) {
+      bottom: 7%;
+      left: 44%; }
+    .step-second-block .step-information-block .mvp-image-block .mvp-img:nth-child(3) {
+      top: 22%;
+      left: 12%; }
+    .step-second-block .step-information-block .mvp-image-block .mvp-img:nth-child(4) {
+      bottom: 23%;
+      right: 8%; }
+    .step-second-block .step-information-block .mvp-image-block .mvp-img:nth-child(5) {
+      top: 7%;
+      left: 44%; }
+    .step-second-block .step-information-block .mvp-image-block .mvp-img:nth-child(6) {
+      top: 23%;
+      right: 8%; }
   .step-second-block .step-information-block .bussines-image-block {
     width: 85%;
     margin: 0 auto;
@@ -272,6 +311,30 @@
     margin: 0 auto;
     min-height: 230px;*/
     display: none; } }
+
+@media only screen and (max-width: 420px) {
+  .step-second-block .step-information-block .mvp-image-block {
+    min-height: 290px; }
+    .step-second-block .step-information-block .mvp-image-block .mvp-img:last-child {
+      display: none; }
+    .step-second-block .step-information-block .mvp-image-block .mvp-img:first-child {
+      top: 37%;
+      left: 11%; }
+    .step-second-block .step-information-block .mvp-image-block .mvp-img:nth-child(2) {
+      bottom: 3%;
+      left: 11%; }
+    .step-second-block .step-information-block .mvp-image-block .mvp-img:nth-child(3) {
+      top: 7%;
+      left: 12%; }
+    .step-second-block .step-information-block .mvp-image-block .mvp-img:nth-child(4) {
+      bottom: 3%;
+      right: 26%; }
+    .step-second-block .step-information-block .mvp-image-block .mvp-img:nth-child(5) {
+      top: 7%;
+      left: 48%; }
+    .step-second-block .step-information-block .mvp-image-block .mvp-img:nth-child(6) {
+      top: 38%;
+      right: 26%; } }
 
 @media only screen and (max-width: 368px) {
   .step-second-block .step-information-block .design-image-block {
