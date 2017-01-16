@@ -8,23 +8,23 @@
                 <form ng-submit="$ctrl.sendEmail(sendEmail.$valid)" name="sendEmail" novalidate>
                     <div class="row">
                         <div class="col-md-12">
-                            <div ng-messages="sendEmail.firstName.$error" ng-if="sendEmail.firstName.$touched" role="alert">
+                            <div ng-messages="sendEmail.firstName.$error" ng-if="sendEmail.firstName.$touched || $ctrl.isSendClicked" role="alert">
                                 <div ng-message="maxlength" class="alert error-masssage">• First name should contains less 50 charapters</div>
                                 <div ng-message="required" class="alert error-masssage">• First name is required.</div>
                             </div>
 
-                            <div ng-messages="sendEmail.lastName.$error" ng-if="sendEmail.lastName.$touched" role="alert">
+                            <div ng-messages="sendEmail.lastName.$error" ng-if="sendEmail.lastName.$touched || $ctrl.isSendClicked" role="alert">
                                 <div ng-message="maxlength" class="alert error-masssage">• First name should contains less 50 charapters</div>
                                 <div ng-message="required" class="alert error-masssage">• Last name is required.</div>
                             </div>
 
-                            <div ng-messages="sendEmail.email.$error" ng-if="sendEmail.email.$touched" role="alert">
+                            <div ng-messages="sendEmail.email.$error" ng-if="sendEmail.email.$touched || $ctrl.isSendClicked" role="alert">
                                 <div ng-message="maxlength" class="alert error-masssage">• Email should contains less 50 charapters</div>
                                 <div ng-message="required" class="alert error-masssage">• Email is required.</div>
                                 <div ng-message="email" class="alert error-masssage">• Please, enter valid email address</div>
                             </div>
 
-                            <div ng-messages="sendEmail.description.$error" ng-if="sendEmail.description.$touched" role="alert">
+                            <div ng-messages="sendEmail.description.$error" ng-if="sendEmail.description.$touched || $ctrl.isSendClicked" role="alert">
                                 <div ng-message="maxlength" class="alert error-masssage">• Description should contains less 1000 charapters</div>
                                 <div ng-message="required" class="alert error-masssage">• Description is required.</div>
                             </div>
@@ -34,25 +34,25 @@
 
                     <div class="row">
                         <div class="col-md-6 input-block-padding-right">
-                            <input type="text" name="firstName" placeholder="First name" autofocus ng-model="$ctrl.emailModel.firstName" ng-maxlength="50" ng-required="true" />
+                            <input type="text" name="firstName" placeholder="First name" focus ng-model="$ctrl.emailModel.firstName" ng-class="{'ng-touched':$ctrl.isSendClicked}" ng-maxlength="50" ng-required="true" />
                         </div>
                         <div class="col-md-6 input-block-padding-left">
-                            <input type="text" name="lastName" placeholder="Last name" ng-model="$ctrl.emailModel.lastName" ng-maxlength="50" ng-required="true" />
+                            <input type="text" name="lastName" placeholder="Last name" ng-model="$ctrl.emailModel.lastName" ng-class="{'ng-touched':$ctrl.isSendClicked}" ng-maxlength="50" ng-required="true" />
                         </div>
                     </div>
                     <div class="row">
                         <div class="col-md-12">
-                            <input type="email" name="email" placeholder="Email" ng-model="$ctrl.emailModel.email" ng-maxlength="50" ng-required="true" />
+                            <input type="email" name="email" placeholder="Email" ng-model="$ctrl.emailModel.email" ng-class="{'ng-touched':$ctrl.isSendClicked}" ng-maxlength="50" ng-required="true" />
 
                         </div>
                         <div class="col-md-12">
                             <dic class="contact-us-textarea" counter>
-                                <textarea placeholder="Massage" name="description" ng-model="$ctrl.emailModel.description" ng-maxlength="1000" elastic ng-required="true"></textarea>
+                                <textarea placeholder="Massage" name="description" ng-model="$ctrl.emailModel.description" ng-class="{'ng-touched':$ctrl.isSendClicked}" ng-maxlength="1000" elastic ng-required="true"></textarea>
                                 <span id="counter">1000</span>
                             </dic>
                         </div>
                         <div class="col-md-12">
-                            <button class="btn blue-button float-r" type="submit">Send</button>
+                            <button class="btn blue-button float-r" ng-disabled="$ctrl.requestSended" type="submit">Send</button>
                         </div>
 
                     </div>

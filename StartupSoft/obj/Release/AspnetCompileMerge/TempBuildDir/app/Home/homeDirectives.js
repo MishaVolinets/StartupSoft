@@ -3,6 +3,7 @@
         return {
             restrict: 'A',
             link: function (scope, elem, attrs) {
+                
                 elem.addClass('white-navbar-display-none');
                 $SecondMenu = $('#SecondPageMenu');
                 $(window).scroll(function () {
@@ -22,5 +23,4 @@
 
     angular.module('ss.homeDirectives', [])
         .directive('navbarScroll', navbarScroll);
-
 })();

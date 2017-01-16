@@ -291,7 +291,6 @@
     </Content>
     <Content Include="robots.txt" />
     <Content Include="Scripts\angular-messages.js" />
-    <Content Include="Scripts\animations.js" />
     <Content Include="Scripts\animations.min.js" />
     <Content Include="Content\motion-ui\_settings.scss" />
     <Content Include="Content\motion-ui\_classes.scss" />
@@ -348,6 +347,7 @@
     <Content Include="Scripts\motion-ui.js" />
     <Content Include="Scripts\motion-ui.min.js" />
     <Content Include="Scripts\ngprogress.js" />
+    <Content Include="Scripts\Scroll.js" />
     <Content Include="Scripts\sendForm.js" />
     <Content Include="Scripts\wow.min.js" />
     <Content Include="sitemap.xml">

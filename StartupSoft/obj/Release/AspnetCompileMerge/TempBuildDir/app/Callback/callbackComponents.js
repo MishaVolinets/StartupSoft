@@ -11,11 +11,17 @@
 
         vm.service = callbackService;
 
+        vm.isBtnClicked = false;
+        vm.requestSended = false;
+
         vm.goToNextStep = function (valid, step) {
+            vm.isBtnClicked = true;
+
             if (valid) {
                 vm.currentStep = step;
             }
         }
+
 
         vm.back = function () {
             vm.service.emailModel = {};
@@ -26,11 +32,15 @@
         }
 
         vm.sendEmail = function (valid) {
+            vm.isBtnClicked = true;
+            vm.requestSended = true;
+
             if (valid) {
                 vm.service.emailModel.fromApply = true;
                 emailService.sendEmail(vm.service.emailModel)
                     .then(function () {
                         vm.service.emailModel = {};
+                        vm.requestSended = false;
                         $state.go('result');
                     });
             }

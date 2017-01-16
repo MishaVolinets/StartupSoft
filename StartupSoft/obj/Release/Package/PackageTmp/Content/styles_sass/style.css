@@ -267,12 +267,19 @@ header {
         position: absolute;
         bottom: 0;
         right: 0; }
+    .step-second-block .step-information-block .step-team-icon-mobile-display {
+      display: none; }
+    .step-second-block .step-information-block .step-team-icom-margin-left {
+      margin-right: 0;
+      margin-left: 25px; }
     .step-second-block .step-information-block .bussines-image-block {
       width: 80%;
       min-height: 380px;
       margin: 0 auto; }
     .step-second-block .step-information-block .advanser-icon {
       background-image: url("/Content/img/advising.png"); }
+    .step-second-block .step-information-block .marketing-icon {
+      background-image: url("/Content/img/marketing.png"); }
     .step-second-block .step-information-block .bussines-image {
       background-image: url("/Content/img/bg-img.png");
       background-size: cover;
@@ -293,15 +300,11 @@ header {
       width: 100%;
       min-height: 260px;
       margin-top: 30px; }
-      .step-second-block .step-information-block .step-animation-block .step-animatin-inner-block {
+      .step-second-block .step-information-block .step-animation-block img {
         width: 100%;
-        min-height: 260px;
-        margin: 0 auto;
+        height: auto;
         overflow: hidden;
-        border-radius: 10px;
-        background-image: url("/Content/img/animation-img.png");
-        background-size: contain;
-        background-repeat: no-repeat; }
+        border-radius: 10px; }
       .step-second-block .step-information-block .step-animation-block .step-inimation-inner-block-add-amination {
         background-image: url("/Content/img/animation-4s.gif"); }
     .step-second-block .step-information-block .design-image-block {

@@ -1,9 +1,11 @@
 ﻿@import "var.scss";
 @import "font.scss";
 
-
+.forms{
+  height: 100vh;
+}
 .form-container {
-    margin: 0 25% 20vh;
+    margin: 0 28% 20vh;
     margin-top: 15vh;
 }
 
@@ -49,6 +51,10 @@ input {
     margin-bottom: 10px;
     border: 1px solid #D1D1D1;
     color: #000000;
+    font-size: 14px;
+    &:focus{
+      border: 1px solid #4094ED;
+    }
 }
 
 input:focus {
@@ -63,6 +69,9 @@ textarea {
     border: 1px solid #D1D1D1;
     color: #000000;
     resize: none;
+    &:focus{
+      border: 1px solid #4094ED;
+    }
 }
 
 textarea:focus {
@@ -80,7 +89,7 @@ textarea:focus {
     opacity: 0.7;
     }
     &:focus{
-    color: #fff;
+    outline: none;
     }
 }
 
@@ -90,17 +99,24 @@ textarea:focus {
 }
 
 .navigation-link {
-    color: #4094ED;
+    color: #888;
+    display:block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 120px;
+    padding-top: 25px;
+    text-align: center;
+    font-family: MuseoSansMedium;
     cursor: pointer;
+
+    &:hover{
+      background-color: rgba(242, 242, 242, 0.5);
+      text-decoration: none;
+      color: #888;
+    }
 }
-
-.navigation-link:hover {
-    text-decoration: none;
-    color: #4094ED;
-    opacity: 0.6;
-
-}
-
 
 .apply-modal-button {
     display: block;
@@ -116,13 +132,24 @@ textarea:focus {
  position: fixed;
  right: 10%;
  bottom: 5%;
+ font-family: MuseoSansMedium;
+ color: #666;
 }
 
 @media (max-width: 998px) {
 .row{
     margin: 0;
   }
-
+  .navigation-link {
+    color: #888;
+    display:inline;
+    padding-top: 25px;
+    position: relative;
+    &:hover{
+      background-color: none;
+      text-decoration: none;
+    }
+  }
 }
 
 @media (max-width: 768px) {

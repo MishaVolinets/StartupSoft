@@ -35,10 +35,23 @@
         }
     }
 
+    function focus($timeout){
+        return {
+            restrict: 'A',
+            link : function($scope, $element) {
+                $timeout(function() {
+                    $element[0].focus();
+                });
+            }
+        }
+    }
+
+    focus.$inject = ['$timeout'];
     elastic.$inject = ["$timeout"];
 
     angular.module('ss.common')
         .directive('elastic', elastic)
-        .directive('counter', counter);
+        .directive('counter', counter)
+        .directive('focus',focus);
 
 })();

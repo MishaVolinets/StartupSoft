@@ -7,12 +7,21 @@
 
         vm.emailModel.fromApply = false;
 
+        vm.isSendClicked = false;
+        vm.requestSended = false;
+
         vm.sendEmail = function (valid) {
+            vm.isSendClicked = true;
+            vm.requestSended = true;
+
             if(valid)
             {
                 emailService.sendEmail(vm.emailModel)
                     .then(function () {
+                        vm.requestSended = false;
                         $state.go('result');
+                    }, function () {
+                        vm.requestSended = false;
                     });
             }
         }

@@ -180,7 +180,8 @@ textarea:focus {
   width: 120px;
   padding-top: 25px;
   text-align: center;
-  font-family: MuseoSansMedium; }
+  font-family: MuseoSansMedium;
+  cursor: pointer; }
   .navigation-link:hover {
     background-color: rgba(242, 242, 242, 0.5);
     text-decoration: none;
