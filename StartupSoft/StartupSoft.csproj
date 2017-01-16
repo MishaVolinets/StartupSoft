@@ -183,17 +183,28 @@
     <Content Include="app\Faq\views\faqBody.html" />
     <Content Include="app\Faq\views\faqPage.html" />
     <Content Include="app\Home\views\homePage.html" />
+    <Content Include="app\layout\buttonFooter.html" />
+    <Content Include="app\Network\network.js" />
+    <Content Include="app\Network\networkComponents.js" />
+    <Content Include="app\Network\views\networkBody.html" />
+    <Content Include="app\Network\views\networkHeader.html" />
+    <Content Include="app\Network\views\networkPage.html" />
     <Content Include="app\Result\result.js" />
     <Content Include="app\Result\resultComponents.js" />
     <Content Include="app\Result\views\resultPage.html" />
+    <Content Include="Content\img\Andrew.png" />
+    <Content Include="Content\img\our-net-bcg.png" />
+    <Content Include="Content\img\our-net-col-1-img.png" />
+    <Content Include="Content\img\our-net-col-2-img.png" />
+    <Content Include="Content\img\our-net-col-3-img.png" />
+    <Content Include="Content\img\our-net-col-4-img.png" />
+    <Content Include="Content\img\polygon-img.png" />
     <Content Include="Content\loadingComponent.css" />
     <Content Include="Content\ngProgress.css" />
     <Content Include="Content\styles_sass\animate.css" />
     <Content Include="Content\animate.min.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
-    <Content Include="Content\icon_fonts\fonts\icomoon.svg" />
-    <Content Include="Content\icon_fonts\style.css" />
     <Content Include="Content\img\about.jpg" />
     <Content Include="Content\img\advising.png" />
     <Content Include="Content\img\animation.gif" />
@@ -265,6 +276,12 @@
     <Content Include="Content\styles_sass\modal.min.css">
       <DependentUpon>modal.css</DependentUpon>
     </Content>
+    <Content Include="Content\styles_sass\our-network.css">
+      <DependentUpon>our-network.scss</DependentUpon>
+    </Content>
+    <Content Include="Content\styles_sass\our-network.min.css">
+      <DependentUpon>our-network.css</DependentUpon>
+    </Content>
     <Content Include="Content\styles_sass\standart-style.css">
       <DependentUpon>standart-style.scss</DependentUpon>
     </Content>
@@ -324,6 +341,7 @@
     <Content Include="Content\styles_sass\about_us.scss" />
     <Content Include="Content\styles_sass\modal.scss" />
     <Content Include="ClassDiagram1.cd" />
+    <Content Include="Content\styles_sass\our-network.scss" />
     <None Include="Scripts\jquery-2.2.0.intellisense.js" />
     <Content Include="app\About\about.js" />
     <Content Include="app\About\aboutComponents.js" />
@@ -416,9 +434,6 @@
     <Content Include="Content\styles_sass\forms.scss" />
     <Content Include="Content\styles_sass\testemonials.scss" />
     <Content Include="Content\styles_sass\white_header.scss" />
-    <Content Include="Content\icon_fonts\fonts\icomoon.eot" />
-    <Content Include="Content\icon_fonts\fonts\icomoon.ttf" />
-    <Content Include="Content\icon_fonts\fonts\icomoon.woff" />
     <Content Include="Scripts\angular.min.js.map" />
     <None Include="Properties\PublishProfiles\StartupSoft - FTP.pubxml" />
     <None Include="Properties\PublishProfiles\StartupSoft - Web Deploy.pubxml" />

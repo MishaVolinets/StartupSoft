@@ -93,96 +93,72 @@
 .Museo-Sans-Black {
   font-family: 'MuseoSansBlack'; }
 
-.about-us-header {
-  background: url("/Content/img/about.jpg") no-repeat center;
-  background-size: cover;
-  box-shadow: 0 0 0 550px rgba(0, 0, 0, 0.3) inset;
-  color: white;
-  text-align: center;
-  padding: 12vh 25% 15vh; }
-  .about-us-header span {
+.our-network-header {
+  background-image: url("/Content/img/our-net-bcg.png"); }
+
+.network-content-block {
+  width: 100%;
+  min-height: 450px; }
+  .network-content-block .network-content-collumn {
+    width: 25%;
+    padding: 100px 30px 50px;
+    display: inline-block;
+    margin-right: -4px;
+    vertical-align: top; }
+    .network-content-block .network-content-collumn .network-colulumn-info {
+      width: 100%;
+      min-height: 300px;
+      background-color: #f7f7f7;
+      position: relative;
+      padding-top: 85px; }
+      .network-content-block .network-content-collumn .network-colulumn-info .network-colulumn-info-out-img {
+        position: absolute;
+        width: 100%;
+        height: 175px;
+        background-image: url("/Content//img/polygon-img.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        top: -100px;
+        left: 50%;
+        margin-left: -50%; }
+        .network-content-block .network-content-collumn .network-colulumn-info .network-colulumn-info-out-img img {
+          display: block;
+          margin: 50px auto; }
+        .network-content-block .network-content-collumn .network-colulumn-info .network-colulumn-info-out-img .collumn-4-img-margin-top {
+          margin-top: 60px; }
+      .network-content-block .network-content-collumn .network-colulumn-info .network-collumn-head-text {
+        font-family: MuseoSansBold;
+        color: #000;
+        display: block;
+        text-align: center;
+        margin: 15px 0;
+        font-size: 18px; }
+      .network-content-block .network-content-collumn .network-colulumn-info ul {
+        padding-right: 10px; }
+        .network-content-block .network-content-collumn .network-colulumn-info ul li {
+          font-size: 14px;
+          color: #4094ed; }
+          .network-content-block .network-content-collumn .network-colulumn-info ul li span {
+            color: #999898; }
+
+.network-button-block {
+  width: 100%;
+  min-height: 220px; }
+  .network-button-block .network-button-block-collumn {
+    width: 33%;
+    min-height: 70px;
+    text-align: center;
+    display: inline-block;
+    margin-right: -4px;
     font-size: 18px; }
-
-.white-navbar {
-  margin-bottom: 0; }
-
-.about-us-content {
-  text-align: center;
-  margin: 10vh 20%;
-  position: relative; }
-
-.content-header {
-  font-size: 20px;
-  font-weight: bold;
-  color: #333333;
-  position: relative; }
-
-.content-header:after {
-  content: '';
-  bottom: 0;
-  left: 0;
-  top: 38px;
-  width: 8%;
-  display: table;
-  margin: 15px auto 0;
-  border: 1px solid #4094ED; }
-
-.content-text {
-  color: #777;
-  font-size: 16px;
-  margin-top: 5px;
-  display: block;
-  line-height: 1.7em; }
-
-.content-text:after {
-  content: '';
-  bottom: 0;
-  left: 0;
-  top: 38px;
-  width: 50%;
-  display: table;
-  margin: 50px auto 15px;
-  border: 1px solid #E9E9E9; }
-
-.content-text:last-child:after {
-  display: none; }
-
-.about-our-team-collum {
-  width: 33%;
-  min-height: 170px;
-  display: inline-block;
-  margin-right: -4px;
-  vertical-align: top;
-  text-align: center;
-  margin-top: 5px; }
-  .about-our-team-collum .about-team-icon {
-    display: block;
-    height: 105px;
-    width: 105px;
-    border: 5px solid #e9e9e9;
-    border-radius: 50%;
-    vertical-align: top;
-    background-size: cover;
-    position: relative;
-    margin: 0 auto 10px; }
-    .about-our-team-collum .about-team-icon .linkedin-image-link {
+    .network-button-block .network-button-block-collumn .icon-style {
+      color: #4094ed;
+      font-size: 42px;
       display: block;
-      height: 26px;
-      width: 26px;
-      position: absolute;
-      bottom: 0;
-      right: 0; }
-  .about-our-team-collum .about-our-team-head-text {
-    font-size: 18px;
-    color: #000;
-    font-family: MuseoSansBold;
-    display: block; }
-  .about-our-team-collum .about-our-team-second-text {
-    display: block; }
-  .about-our-team-collum .chief-executive {
-    background-image: url("/Content/img/marketing.png"); }
-  .about-our-team-collum .revett-icon {
-    background-image: url("/Content/img/advising.png"); }
-  .about-our-team-collum .andrew-icon {
-    background-image: url("/Content/img/Andrew.png"); }
+      margin-bottom: 25px; }
+  .network-button-block .find-out-button {
+    margin: 50px auto; }
+
+.content-header-after-second-width:after {
+  width: 25%; }
 

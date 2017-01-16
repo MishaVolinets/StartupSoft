@@ -8,6 +8,7 @@
     'ss.faq',
     'ss.contact',
     'ss.callback',
+    'ss.network',
     'ss.result',
     'ss.layout',
     'ss.common'])

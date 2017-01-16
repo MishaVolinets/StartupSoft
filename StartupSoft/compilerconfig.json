@@ -50,5 +50,9 @@
   {
     "outputFile": "Content/styles_sass/modal.css",
     "inputFile": "Content/styles_sass/modal.scss"
+  },
+  {
+    "outputFile": "Content/styles_sass/our-network.css",
+    "inputFile": "Content/styles_sass/our-network.scss"
   }
 ]

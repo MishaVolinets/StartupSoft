@@ -21,7 +21,13 @@ namespace StartupSoft
             defaults: new { controller = "Home", action = "Index" }
             );
 
-            routes.MapRoute(
+              routes.MapRoute(
+              name: "Network",
+              url: "network",
+              defaults: new { controller = "Home", action = "Index" }
+              );
+
+               routes.MapRoute(
                 name: "Result",
                 url: "result",
                 defaults: new { controller = "Home", action = "Index" }
