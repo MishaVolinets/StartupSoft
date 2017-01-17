@@ -1,12 +1,15 @@
 ﻿(function () {
-    'use strict'
-    function footerController(){
-        var vm = this;
-    }
+  'use strict'
+  function footerController(){
+    var vm = this;
+  }
 
-    angular.module('ss.layout',[])
-        .component('footerComponent', {
-            templateUrl: '/app/layout/footer.html',
-            controller: footerController
-        });
+  angular.module('ss.layout',[])
+      .component('footerComponent', {
+        templateUrl: '/app/layout/footer.html',
+        controller: footerController
+      })
+      .component('buttonFooter',{
+        templateUrl: '/app/layout/buttonFooter.html'
+      });
 })();

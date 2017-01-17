@@ -25,7 +25,7 @@
         $urlRouterProvider.otherwise("/notfound");
 
     }])
-    .run(['$rootScope', '$state', 'ngProgressFactory', function ($rootScope, $state, ngProgressFactory) {
+    .run(['$rootScope', '$state','$timeout', 'ngProgressFactory', function ($rootScope, $state,$timeout, ngProgressFactory) {
         $rootScope.$state = $state;
 
 
@@ -38,7 +38,9 @@
         });
 
         $rootScope.$on('$stateChangeSuccess', function (event, toState, toParams, fromState, fromParams) {
-            progressBar.complete();
+            $timeout(function () {
+                progressBar.complete();
+            });
         });
 
     }]);
