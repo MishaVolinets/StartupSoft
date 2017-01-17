@@ -177,7 +177,13 @@
   .mobile-button-aplly {
     display: block !important; }
   .white-navbar-button-margin {
-    display: none; } }
+    display: none; }
+  .network-content-block .network-content-collumn {
+    width: 50%; }
+  .network-button-block .network-button-block-collumn {
+    width: 100%;
+    display: block;
+    margin-bottom: 25px; } }
 
 @media only screen and (max-width: 992px) and (min-width: 776px) {
   .step-second-block .step-information-block .mvp-image-block {
@@ -212,6 +218,8 @@
     min-height: 237px; }
   .content-header:after {
     width: 15%; }
+  .content-header-after-second-width:after {
+    width: 55%; }
   .step-second-block .step-information-block .bussines-image-block {
     min-height: 350px; } }
 
@@ -270,7 +278,9 @@
   .step-second-block .step-information-block .bussines-image-block {
     width: 85%;
     margin: 0 auto;
-    min-height: 280px; } }
+    min-height: 280px; }
+  .network-content-block .network-content-collumn {
+    width: 100%; } }
 
 @media only screen and (max-width: 500px) {
   header .head-title {

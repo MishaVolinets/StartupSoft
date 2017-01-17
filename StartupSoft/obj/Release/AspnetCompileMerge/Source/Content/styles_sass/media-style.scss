@@ -136,6 +136,18 @@
   .white-navbar-button-margin{
     display: none;
   }
+  .network-content-block{
+    .network-content-collumn{
+    width: 50%;
+    }
+  }
+  .network-button-block{
+    .network-button-block-collumn{
+      width: 100%;
+      display: block;
+      margin-bottom: 25px;
+    }
+  }
 }
 
 @media only screen and (max-width: 992px) and (min-width: 776px) {
@@ -194,6 +206,9 @@
   }
   .content-header:after {
     width: 15%;
+  }
+  .content-header-after-second-width:after{
+  width: 55%;
   }
     .step-second-block .step-information-block .bussines-image-block{
     min-height: 350px;
@@ -291,6 +306,11 @@
     margin: 0 auto;
     min-height: 280px;
       }
+    }
+  }
+  .network-content-block{
+    .network-content-collumn{
+    width: 100%;
     }
   }
 }
