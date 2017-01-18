@@ -1,20 +1,21 @@
-!function(doc) {
-  var addEvent = 'addEventListener',
-      type = 'gesturestart',
-      qsa = 'querySelectorAll',
-      scales = [1, 1],
-      meta = qsa in doc ? doc[qsa]('meta[name=viewport]') : [];
+//!function(doc) {
+//  var addEvent = 'addEventListener',
+//      type = 'gesturestart',
+//      qsa = 'querySelectorAll',
+//      scales = [1, 1],
+//      meta = qsa in doc ? doc[qsa]('meta[name=viewport]') : [];
 
-  function fix() {
-    meta.content = 'width=device-width,minimum-scale=' + scales[0] + ',maximum-scale=' + scales[1];
-    doc.removeEventListener(type, fix, !0);
-  }
-  if ((meta = meta[meta.length - 1]) && addEvent in doc) {
-    fix();
-    scales = [.25, 1.6];
-    doc[addEvent](type, fix, !0);
-  }
-}(document);
+//  function fix() {
+//    debugger;
+//    meta.content = 'width=device-width,minimum-scale=' + scales[0] + ',maximum-scale=' + scales[1];
+//    doc.removeEventListener(type, fix, !0);
+//  }
+//  if ((meta = meta[meta.length - 1]) && addEvent in doc) {
+//    fix();
+//    scales = [.25, 1.6];
+//    doc[addEvent](type, fix, !0);
+//  }
+//}(document);
 
 
 
@@ -44,12 +45,6 @@ $(window).scroll(function(){
           $menu.removeClass('white-navbar-display').addClass('white-navbar-display-none');
           $SecondMenu.removeClass('white-navbar-display-fixed').addClass('white-navbar-second-page');
           $Button.removeClass('white-navbar-button-display-block');
-        }
-        if (ScrollPosition >= 900) {
-          $StepTwo.addClass('bussines-image-gif');
-        }
-        if (ScrollPosition >= 1700) {
-          $StepFour.addClass('step-inimation-inner-block-add-amination');
         }
     });
 

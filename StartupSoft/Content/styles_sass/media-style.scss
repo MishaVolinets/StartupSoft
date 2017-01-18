@@ -34,6 +34,17 @@
       margin: 0;
     }
   }
+  .network-content-block{
+    .network-content-collumn{
+    width: 50%;
+    .network-content-collumn-inner-block{
+      .network-colulumn-info{
+      max-width: 233px;
+      margin: 0 auto;
+        }
+      }
+    }
+  }
 }
 
 @media only screen and (max-width: 992px) {
@@ -135,11 +146,6 @@
   }
   .white-navbar-button-margin{
     display: none;
-  }
-  .network-content-block{
-    .network-content-collumn{
-    width: 50%;
-    }
   }
   .network-button-block{
     .network-button-block-collumn{
