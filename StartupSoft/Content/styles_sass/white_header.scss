@@ -50,7 +50,9 @@
 .mobile-button-aplly{
   display: none !important;
 }
-
+.navbar-collapse{
+max-height: 450px;
+}
 
 @media (max-width: 992px) {
     .white-navbar {
@@ -74,7 +76,7 @@
              display:inline-block;
             li {
                 width:100%;
-                a {
+                span {
                     
                     text-align: center;
                 }

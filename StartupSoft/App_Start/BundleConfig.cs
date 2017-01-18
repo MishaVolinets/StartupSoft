@@ -63,13 +63,13 @@ namespace StartupSoft
 
             bundles.Add(new StyleBundle("~/Content/css").Include(
                       "~/Content/bootstrap.min.css",
+                      "~/Content/styles_sass/style.min.css",
                        "~/Content/styles_sass/about_us.min.css",
                        "~/Content/styles_sass/contact-us.min.css",
                        "~/Content/styles_sass/faq.min.css",
                        "~/Content/styles_sass/forms.min.css",
                        "~/Content/styles_sass/icon-fonts.min.css",
                        "~/Content/styles_sass/standart-style.min.css",
-                       "~/Content/styles_sass/style.min.css",
                        "~/Content/styles_sass/modal.min.css",
                        "~/Content/styles_sass/testemonials.min.css",
                        "~/Content/styles_sass/our-network.min.css",

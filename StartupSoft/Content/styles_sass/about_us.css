@@ -139,7 +139,7 @@
   bottom: 0;
   left: 0;
   top: 38px;
-  width: 50%;
+  width: 0;
   display: table;
   margin: 50px auto 15px;
   border: 1px solid #E9E9E9; }
@@ -178,7 +178,9 @@
     font-family: MuseoSansBold;
     display: block; }
   .about-our-team-collum .about-our-team-second-text {
-    display: block; }
+    display: block;
+    font-size: 15px;
+    margin-top: 5px; }
   .about-our-team-collum .chief-executive {
     background-image: url("/Content/img/marketing.png"); }
   .about-our-team-collum .revett-icon {

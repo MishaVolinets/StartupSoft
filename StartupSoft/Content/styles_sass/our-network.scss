@@ -2,7 +2,9 @@
 @import "var.scss";
 
 .our-network-header{
-  background-image: url('/Content/img/our-net-bcg.png')
+  background-image: url('/Content/img/our-net-bcg.png');
+  padding-top: 15vh;
+  padding-bottom: 20vh;
 }
 .network-content-block{
   width: 100%;
@@ -46,7 +48,7 @@
             font-size: 18px;
           }
           ul{
-          padding-right: 10px;
+          padding-right: 20px;
             li{
             font-size: 14px;
             color: #4094ed;
