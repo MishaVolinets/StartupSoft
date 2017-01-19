@@ -100,7 +100,11 @@ body {
   font-size: 13px;
   background-color: #ffffff;
   color: #999898;
-  font-family: MuseoSansRegular; }
+  font-family: MuseoSansRegular;
+  padding-top: 83px; }
+
+.no-padding {
+  padding-top: 0; }
 
 /*-------------header--------------*/
 /*-------------navbar--------------*/
@@ -421,6 +425,10 @@ footer {
       color: #4862A3; }
     footer .footer-column .icon-linkedin-logo:hover {
       color: #1F88BE; }
+    footer .footer-column .icon-twitter-logo-silhouette:hover {
+      color: #1DA1F2; }
+    footer .footer-column .icon-instagram-logo:hover {
+      color: #2C6A93; }
     footer .footer-column .footer-text-information {
       font-size: 16px; }
 

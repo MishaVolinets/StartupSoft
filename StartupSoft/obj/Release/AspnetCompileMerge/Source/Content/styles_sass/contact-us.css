@@ -155,9 +155,17 @@
   padding: 0;
   color: #a94442; }
 
-input.ng-invalid.ng-touched,
-textarea.ng-invalid.ng-touched {
+.inline {
+  position: absolute;
+  top: -25px; }
+
+input.error-border,
+textarea.error-border {
   border: 2px solid #dd4b39; }
+
+input.ng-valid,
+textarea.ng-valid {
+  border: 1px solid #d1d1d1; }
 
 @media (max-width: 998px) {
   .contact-us-content {

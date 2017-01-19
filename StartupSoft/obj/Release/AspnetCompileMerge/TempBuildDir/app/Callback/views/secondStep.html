@@ -2,23 +2,25 @@
     <div class="container">
         <div class="row">
             <div class="center-container">
-                <span class="navigation-link" ng-click="$ctrl.goToNextStep(true,1)"><span class="icon-last-track-left-arrow"></span> PREVIOUS QUESTION</span>
+                <span class="navigation-link" ng-click="$ctrl.goToNextStep(true,1)"><span class="icon-last-track-left-arrow"></span> BACK</span>
                 <form ng-submit="$ctrl.sendEmail(sendEmail.$valid)" name="sendEmail" novalidate>
                     <div class="form-container">
                         <h1 class="center-tittle">Tell us briefly about your project</h1>
-                        <div ng-messages="sendEmail.projectName.$error" ng-if="sendEmail.projectName.$touched || $ctrl.isBtnClicked">
+
+                        <div ng-messages="sendEmail.projectName.$error" ng-if="$ctrl.isBtnClicked">
                             <div ng-message="required" class="alert error-masssage">• Project name is required</div>
                             <div ng-message="maxlength" class="alert error-masssage">• Project name should be less 50 charapters</div>
                         </div>
 
-                        <div ng-messages="sendEmail.description.$error" ng-if="sendEmail.description.$touched || $ctrl.isBtnClicked">
+                        <input type="text" name="projectName" placeholder="Project name" focus ng-model="$ctrl.service.emailModel.projectName" ng-class="{'error-border': $ctrl.isBtnClicked}" ng-maxlength="50" ng-required="true" />
+                        <br />
+
+                        <div ng-messages="sendEmail.description.$error" ng-if="$ctrl.isBtnClicked">
                             <div ng-message="required" class="alert error-masssage">• Description is required</div>
                             <div ng-message="maxlength" class="alert error-masssage">• Description should be less 1000 charapters</div>
                         </div>
 
-                        <input type="text" name="projectName" placeholder="Project name" focus ng-model="$ctrl.service.emailModel.projectName" ng-class="{'ng-touched': $ctrl.isBtnClicked}" ng-maxlength="50" ng-required="true" />
-                        <br />
-                        <textarea name="description" placeholder="Description" ng-model="$ctrl.service.emailModel.description" ng-class="{'ng-touched': $ctrl.isBtnClicked}" ng-maxlength="1000" ng-required="true"></textarea>
+                        <textarea name="description" placeholder="Description" ng-model="$ctrl.service.emailModel.description" ng-class="{'error-border': $ctrl.isBtnClicked}" ng-maxlength="1000" ng-required="true"></textarea>
                         <div class="form-button">
                             <button class="btn blue-button" ng-disabled="$ctrl.requestSended" type="submit">Apply</button>
                         </div>

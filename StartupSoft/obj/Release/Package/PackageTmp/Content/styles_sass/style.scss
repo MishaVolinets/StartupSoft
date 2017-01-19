@@ -12,8 +12,12 @@ body {
   background-color: #ffffff;
   color: #999898;
   font-family: MuseoSansRegular;
+  padding-top: 83px;
 }
 
+.no-padding{
+    padding-top: 0;
+}
 /*-------------header--------------*/
 /*-------------navbar--------------*/
 
@@ -408,6 +412,16 @@ footer {
         color: #1F88BE;
       }
     }
+    .icon-twitter-logo-silhouette{
+       &:hover{
+        color:#1DA1F2;
+       }
+     }
+     .icon-instagram-logo{
+       &:hover{
+        color:#2C6A93;
+       }
+     }
     .footer-text-information {
       font-size: 16px;
     }

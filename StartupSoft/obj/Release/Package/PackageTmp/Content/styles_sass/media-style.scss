@@ -34,9 +34,28 @@
       margin: 0;
     }
   }
+  .network-content-block{
+    .network-content-collumn{
+    width: 50%;
+    .network-content-collumn-inner-block{
+      .network-colulumn-info{
+      max-width: 233px;
+      margin: 0 auto;
+        }
+      }
+    }
+  }
 }
 
 @media only screen and (max-width: 992px) {
+   body{
+       padding-top: 5px;
+   }
+
+   .inline{
+       position: static;
+   }
+
   .container {
     width: 100%;
     max-width: 100%;
@@ -136,11 +155,6 @@
   .white-navbar-button-margin{
     display: none;
   }
-  .network-content-block{
-    .network-content-collumn{
-    width: 50%;
-    }
-  }
   .network-button-block{
     .network-button-block-collumn{
       width: 100%;
@@ -172,6 +186,12 @@
     width: 65%;
     min-height: 390px;
   }
+  .main-navbar-block {
+    display: none;
+  }
+  .white-navbar-display-main-page{
+    display: block;
+  }
 }
 
 @media only screen and (max-width: 788px) {
@@ -181,12 +201,6 @@
     padding: 20px 0 !important;
     max-height: 60px;
     min-height: 0 !important;
-  }
-  .main-navbar-block {
-    display: none;
-  }
-  .white-navbar-display-main-page{
-    display: block;
   }
   .white-navbar-dispaly-none-second-page{
   display: none;
@@ -313,6 +327,9 @@
     width: 100%;
     }
   }
+  .about-our-team-collum{
+    width: 100%;
+  }
 }
 
 @media only screen and (max-width: 500px) {
@@ -366,9 +383,6 @@
     width: 25%;
   }
   .step-second-block .step-information-block .bussines-image-block{
-    /*width: 70%;
-    margin: 0 auto;
-    min-height: 230px;*/
     display: none;
   }
 }
@@ -396,7 +410,8 @@
         }
         &:nth-child(4) {
           bottom: 3%;
-          right: 26%;
+          right: inherit;
+          left: 48%;
         }
         &:nth-child(5) {
           top: 7%;
@@ -404,7 +419,8 @@
         }
         &:nth-child(6) {
           top: 38%;
-          right: 26%;
+          right: inherit;
+          left: 48%;
         }
         }
       }

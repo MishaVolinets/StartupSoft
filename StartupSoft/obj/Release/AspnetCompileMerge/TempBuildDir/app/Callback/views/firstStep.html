@@ -5,23 +5,23 @@
                 <span class="navigation-link"  ng-click="$ctrl.back()"><span class="icon-last-track-left-arrow"></span> BACK</span>
                 <div class="form-container" ng-form name="sendEmail">
                     <h1 class="center-tittle">Please, fill in your data.</h1>
-                    <div ng-messages="sendEmail.fullName.$error" ng-if="sendEmail.fullName.$touched || $ctrl.isBtnClicked">
+                    <div ng-messages="sendEmail.fullName.$error" ng-if="$ctrl.isBtnClicked">
                         <div ng-message="required" class="alert error-masssage">• Full name is required</div>
                         <div ng-message="maxlength" class="alert error-masssage">• Full name should be less 100 charapters</div>
                     </div>
-                    <div ng-messages="sendEmail.email.$error" ng-if="sendEmail.email.$touched || $ctrl.isBtnClicked">
+                    <input type="text" placeholder="Full name" name="fullName" focus ng-model="$ctrl.service.emailModel.fullName" ng-class="{'error-border' : $ctrl.isBtnClicked}" ng-maxlength="100" ng-required="true" />
+                    <br />
+                    <div ng-messages="sendEmail.email.$error" ng-if="$ctrl.isBtnClicked">
                         <div ng-message="required" class="alert error-masssage">• Email is required</div>
                         <div ng-message="maxlength" class="alert error-masssage">• Email should be less 50 charapters</div>
                         <div ng-message="email" class="alert error-masssage">• Please, enter valid email address</div>
                     </div>
-                    <div ng-messages="sendEmail.skype.$error" ng-if="sendEmail.skype.$touched || $ctrl.isBtnClicked">
+                    <input type="email" placeholder="Email" name="email" ng-model="$ctrl.service.emailModel.email" ng-class="{'error-border' : $ctrl.isBtnClicked}"  ng-maxlength="50" ng-required="true" />
+                    <br />
+                    <div ng-messages="sendEmail.skype.$error" ng-if="$ctrl.isBtnClicked">
                         <div ng-message="maxlength" class="alert error-masssage">• Skype name should be less 50 charapters</div>
                     </div>
-                    <input type="text" placeholder="Full name" name="fullName" focus ng-model="$ctrl.service.emailModel.fullName" ng-class="{'ng-touched' : $ctrl.isBtnClicked}" ng-maxlength="100" ng-required="true" />
-                    <br />
-                    <input type="email" placeholder="Email" name="email" ng-model="$ctrl.service.emailModel.email" ng-class="{'ng-touched' : $ctrl.isBtnClicked}"  ng-maxlength="50" ng-required="true" />
-                    <br />
-                    <input type="text" placeholder="Skype" name="skype" ng-model="$ctrl.service.emailModel.skype" ng-class="{'ng-touched' : $ctrl.isBtnClicked}"  ng-maxlength="50" />
+                    <input type="text" placeholder="Skype" name="skype" ng-model="$ctrl.service.emailModel.skype" ng-class="{'error-border' : $ctrl.isBtnClicked}"  ng-maxlength="50" />
                     <div class="form-button">
                         <button class="btn blue-button" type="button" ng-click="$ctrl.goToNextStep(sendEmail.$valid,2)">Next step</button>
                     </div>

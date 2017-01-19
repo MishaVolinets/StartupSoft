@@ -45,5 +45,11 @@ $(window).scroll(function(){
         //  $SecondMenu.removeClass('white-navbar-display-fixed').addClass('white-navbar-second-page');
         //  $Button.removeClass('white-navbar-button-display-block');
         //}
+        //if (ScrollPosition >= 900) {
+        //  $StepTwo.addClass('bussines-image-gif');
+        //}
+        //if (ScrollPosition >= 1700) {
+        //  $StepFour.addClass('step-inimation-inner-block-add-amination');
+        //}
     });
 

@@ -12,10 +12,10 @@
 
         vm.sendEmail = function (valid) {
             vm.isSendClicked = true;
-            vm.requestSended = true;
 
             if(valid)
             {
+                vm.requestSended = true;
                 emailService.sendEmail(vm.emailModel)
                     .then(function () {
                         vm.requestSended = false;

@@ -34,6 +34,17 @@
       margin: 0;
     }
   }
+  .network-content-block{
+    .network-content-collumn{
+    width: 50%;
+    .network-content-collumn-inner-block{
+      .network-colulumn-info{
+      max-width: 233px;
+      margin: 0 auto;
+        }
+      }
+    }
+  }
 }
 
 @media only screen and (max-width: 992px) {
@@ -143,11 +154,6 @@
   }
   .white-navbar-button-margin{
     display: none;
-  }
-  .network-content-block{
-    .network-content-collumn{
-    width: 50%;
-    }
   }
   .network-button-block{
     .network-button-block-collumn{
@@ -377,9 +383,6 @@
     width: 25%;
   }
   .step-second-block .step-information-block .bussines-image-block{
-    /*width: 70%;
-    margin: 0 auto;
-    min-height: 230px;*/
     display: none;
   }
 }
@@ -407,7 +410,8 @@
         }
         &:nth-child(4) {
           bottom: 3%;
-          right: 26%;
+          right: inherit;
+          left: 48%;
         }
         &:nth-child(5) {
           top: 7%;
@@ -415,7 +419,8 @@
         }
         &:nth-child(6) {
           top: 38%;
-          right: 26%;
+          right: inherit;
+          left: 48%;
         }
         }
       }

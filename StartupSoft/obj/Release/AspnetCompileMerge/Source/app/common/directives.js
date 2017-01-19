@@ -46,12 +46,64 @@
         }
     }
 
+    function ssPoint($timeout) {
+        
+        return {
+            restict: 'A',
+            link: function (scope, elem, attrs) {
+                $timeout(function () {
+                    var windowHeight = window.innerHeight;
+
+                    console.log('window-height/2', windowHeight / 2);
+
+
+
+                    var ssPoint = elem.find('.step-blue-indicator')[0];
+                    console.log('numbers-step-offset: ', $(ssPoint).offset().top);
+
+                    var scrollFunc = function () {
+                        var windowTop = $(window).scrollTop();
+                        console.log('window-top: ', windowTop);
+                        console.log('window-top + window-height/2: ', windowTop + windowHeight / 2);
+
+                        if (windowTop + windowHeight / 3 >= $(ssPoint).offset().top - 150 && windowTop + windowHeight / 3 <= $(ssPoint).offset().top + 150) {
+
+                            $(ssPoint).addClass('active');
+                        } else {
+                            $(ssPoint).removeClass('active');
+                        }
+                    };
+
+                    $(window).bind('scroll', scrollFunc);
+
+                    scope.$on('$destroy', function () {
+                        $(window).unbind('scroll');
+                    });
+                });
+               
+
+                //$(window).on('scroll',function () {
+                //    var windowTop = $(window).scrollTop() + window.innerHeight/2,
+                //        elemTop = $(elem).offset();
+                //    if (windowTop >= elemTop.top) {
+                //        elem.addClass('active');
+                //        debugger;
+                //    }
+                //})
+            }
+        }
+
+    }
+
     focus.$inject = ['$timeout'];
     elastic.$inject = ["$timeout"];
+    ssPoint.$inject = ["$timeout"];
 
     angular.module('ss.common')
         .directive('elastic', elastic)
         .directive('counter', counter)
-        .directive('focus',focus);
+        .directive('focus', focus)
+        .directive('ssPoint', ssPoint);
+
 
 })();

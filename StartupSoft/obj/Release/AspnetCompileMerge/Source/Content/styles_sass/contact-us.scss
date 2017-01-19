@@ -79,10 +79,19 @@
     padding: 0;
     color: $general-error-color;
 }
+.inline{
+    position: absolute;
+    top: -25px;
+}
 
-input.ng-invalid.ng-touched,
-textarea.ng-invalid.ng-touched{
+input.error-border,
+textarea.error-border{
     border: 2px solid $general-error-border-color;
+}
+
+input.ng-valid,
+textarea.ng-valid{
+    border: 1px solid #d1d1d1;
 }
 
 @media (max-width: 998px) {
