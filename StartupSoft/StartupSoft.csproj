@@ -193,6 +193,7 @@
     <Content Include="app\Result\resultComponents.js" />
     <Content Include="app\Result\views\resultPage.html" />
     <Content Include="Content\img\Andrew.png" />
+    <Content Include="Content\img\a_s_marketing.png" />
     <Content Include="Content\img\our-net-bcg.png" />
     <Content Include="Content\img\our-net-col-1-img.png" />
     <Content Include="Content\img\our-net-col-2-img.png" />
