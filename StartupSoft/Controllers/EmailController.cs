@@ -24,10 +24,8 @@ namespace StartupSoft.Controllers
 
         private void sendEmail(EmailModel model)
         {
-            var fromAddress = new MailAddress("startupsoftmail@gmail.com", "SS Mail Notifier");
+            var fromAddress = new MailAddress("startupsoft.mail.official@gmail.com", "SS Mail Notifier");
             List<MailAddress> toAdress = new List<MailAddress>();
-            //toAdress.Add(new MailAddress("vasylykalex@gmail.com"));
-            //toAdress.Add(new MailAddress("annaalexmelnik@gmail.com"));
             toAdress.Add(new MailAddress("vasylykalex@gmail.com"));
             toAdress.Add(new MailAddress("annaalexmelnik@gmail.com"));
             const string fromPassword = "qweasdSS";

@@ -33,9 +33,10 @@
 
         vm.sendEmail = function (valid) {
             vm.isBtnClicked = true;
-            vm.requestSended = true;
-
+            debugger;
             if (valid) {
+                vm.requestSended = true;
+
                 vm.service.emailModel.fromApply = true;
                 emailService.sendEmail(vm.service.emailModel)
                     .then(function () {
