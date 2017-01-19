@@ -322,9 +322,6 @@
   .content-header:after {
     width: 25%; }
   .step-second-block .step-information-block .bussines-image-block {
-    /*width: 70%;
-    margin: 0 auto;
-    min-height: 230px;*/
     display: none; } }
 
 @media only screen and (max-width: 420px) {
@@ -343,13 +340,15 @@
       left: 12%; }
     .step-second-block .step-information-block .mvp-image-block .mvp-img:nth-child(4) {
       bottom: 3%;
-      right: 26%; }
+      right: inherit;
+      left: 48%; }
     .step-second-block .step-information-block .mvp-image-block .mvp-img:nth-child(5) {
       top: 7%;
       left: 48%; }
     .step-second-block .step-information-block .mvp-image-block .mvp-img:nth-child(6) {
       top: 38%;
-      right: 26%; } }
+      right: inherit;
+      left: 48%; } }
 
 @media only screen and (max-width: 368px) {
   .step-second-block .step-information-block .design-image-block {
