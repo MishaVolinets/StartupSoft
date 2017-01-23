@@ -540,6 +540,6 @@ D:\Sturtup\back-end projects\Angular SS\StartupSoft\bin\System.Web.WebPages.Depl
 D:\Sturtup\back-end projects\Angular SS\StartupSoft\bin\System.Web.WebPages.Razor.xml
 D:\Sturtup\back-end projects\Angular SS\StartupSoft\bin\Antlr3.Runtime.pdb
 D:\Sturtup\back-end projects\Angular SS\StartupSoft\bin\Newtonsoft.Json.xml
-D:\Sturtup\back-end projects\Angular SS\StartupSoft\obj\Debug\StartupSoft.csprojResolveAssemblyReference.cache
 D:\Sturtup\back-end projects\Angular SS\StartupSoft\obj\Debug\StartupSoft.dll
 D:\Sturtup\back-end projects\Angular SS\StartupSoft\obj\Debug\StartupSoft.pdb
+D:\Sturtup\back-end projects\Angular SS\StartupSoft\obj\Debug\StartupSoft.csprojResolveAssemblyReference.cache

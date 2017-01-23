@@ -49,6 +49,8 @@ namespace StartupSoft
                     "~/app/Callback/callback.js",
                     "~/app/Callback/callbackService.js",
                     "~/app/Callback/callbackComponents.js",
+                    "~/app/Testemonials/testemonials.js",
+                    "~/app/Testemonials/testemonialsComponents.js",
                     "~/app/Network/network.js",
                     "~/app/Network/networkComponents.js",
                     "~/app/Result/result.js",
