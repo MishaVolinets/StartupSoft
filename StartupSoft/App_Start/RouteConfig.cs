@@ -15,19 +15,25 @@ namespace StartupSoft
 
             routes.MapMvcAttributeRoutes();
 
-            routes.MapRoute(
-            name: "Callback",
-            url: "callback",
-            defaults: new { controller = "Home", action = "Index" }
-            );
+      routes.MapRoute(
+name: "Testemonials",
+url: "testemonials",
+defaults: new { controller = "Home", action = "Index" }
+);
 
-              routes.MapRoute(
+           routes.MapRoute(
+      name: "Callback",
+      url: "callback",
+      defaults: new { controller = "Home", action = "Index" }
+      );
+
+           routes.MapRoute(
               name: "Network",
               url: "network",
               defaults: new { controller = "Home", action = "Index" }
               );
 
-               routes.MapRoute(
+           routes.MapRoute(
                 name: "Result",
                 url: "result",
                 defaults: new { controller = "Home", action = "Index" }

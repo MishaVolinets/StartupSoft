@@ -9,6 +9,7 @@
     'ss.contact',
     'ss.callback',
     'ss.network',
+    'ss.testemonials',
     'ss.result',
     'ss.layout',
     'ss.common'])
