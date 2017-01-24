@@ -1,15 +1,17 @@
 ﻿(function () {
     'use strict'
 
-    function navbartopController($window) {
+    function navbartopController($window,$state) {
         var vm = this;
+
+        vm.currentState = $state.current.name;
 
         vm.goTo = function (to) {
             $window.open(to);
         }
     }
 
-    navbartopController.$inject = ['$window'];
+    navbartopController.$inject = ['$window','$state'];
 
     angular.module('ss.layout')
         .component('navbartop', {
