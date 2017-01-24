@@ -200,6 +200,7 @@
     <Content Include="Content\img\Andrew.png" />
     <Content Include="Content\img\a_s_marketing.png" />
     <Content Include="Content\img\karen.jpg" />
+    <Content Include="Content\img\Olena.png" />
     <Content Include="Content\img\our-net-bcg.png" />
     <Content Include="Content\img\our-net-col-1-img.png" />
     <Content Include="Content\img\our-net-col-2-img.png" />
@@ -207,6 +208,9 @@
     <Content Include="Content\img\our-net-col-4-img.png" />
     <Content Include="Content\img\Patrik.png" />
     <Content Include="Content\img\polygon-img.png" />
+    <Content Include="Content\img\Rostik.png" />
+    <Content Include="Content\img\Sasha.png" />
+    <Content Include="Content\img\volodya.jpg" />
     <Content Include="Content\loadingComponent.css" />
     <Content Include="Content\ngProgress.css" />
     <Content Include="Content\styles_sass\animate.css" />
