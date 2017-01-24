@@ -302,15 +302,16 @@ header {
       margin-top: 15px; }
     .step-second-block .step-information-block .step-animation-block {
       width: 100%;
-      min-height: 260px;
+      min-height: 180px;
       margin-top: 30px; }
       .step-second-block .step-information-block .step-animation-block img {
         width: 100%;
         height: auto;
         overflow: hidden;
         border-radius: 10px; }
-      .step-second-block .step-information-block .step-animation-block .step-inimation-inner-block-add-amination {
-        background-image: url("/Content/img/animation-4s.gif"); }
+      .step-second-block .step-information-block .step-animation-block .step-seven-img {
+        width: 80%;
+        margin: 0 auto; }
     .step-second-block .step-information-block .design-image-block {
       width: 100%;
       min-height: 327px;
