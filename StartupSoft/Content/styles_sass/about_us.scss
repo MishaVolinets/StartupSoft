@@ -49,6 +49,12 @@
     margin-top: 5px;
     display: block;
     line-height: 1.7em;
+    .content-text-aplly{
+      color: #4094ED;
+      &:hover{
+      cursor: pointer;
+      }
+    }
 }
 
 .content-text:after {
@@ -66,7 +72,7 @@
   display:none;
 }
 .about-our-team-collum{
-  width: 33%;
+  width: 25%;
   min-height: 170px;
   display: inline-block;
   margin-right: -4px;

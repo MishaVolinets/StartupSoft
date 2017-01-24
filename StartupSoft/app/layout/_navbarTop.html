@@ -15,14 +15,13 @@
         <!-- Зібрано навігаційні лінки, форми, та інший вміст для переключення -->
         <div class="collapse navbar-collapse" id="white_navbar">
             <ul class="nav navbar-nav navbar-text white-navbar-menu">
-                <li><span ui-sref="home" class="underline">HOME</span></li>
+                <li><span ui-sref="home" class="underline underline-active">HOME</span></li>
                 <li><span ui-sref="about" class="underline">ABOUT US</span></li>
-                <li><span ng-click="$ctrl.goTo('http://blog.startupsoft.org/')" class="underline">BLOG</span></li>
-                <li><span ui-sref="network" class="underline">OUR NETWORK</span></li>
                 <li><span ui-sref="testemonials" class="underline">TESTEMONIALS</span></li>
                 <li><span ui-sref="faq" class="underline">FAQ</span></li>
+                <li><span ng-click="$ctrl.goTo('http://blog.startupsoft.org/')" class="underline">BLOG</span></li>
                 <li><span ui-sref="contact" class="underline">CONTACT US</span></li>
-                <li><span class="underline mobile-button-aplly">APPLY</span></li>
+                <li><span ui-sref="callback" class="underline mobile-button-aplly">APPLY</span></li>
                 <li>
                     <button class="general-button step-button-style dark-hover-shadow white-navbar-button-margin" ui-sref="callback">APPLY</button>
                 </li>
