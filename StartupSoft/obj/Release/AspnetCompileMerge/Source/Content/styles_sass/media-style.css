@@ -113,7 +113,39 @@
     width: 50%; }
     .network-content-block .network-content-collumn .network-content-collumn-inner-block .network-colulumn-info {
       max-width: 233px;
-      margin: 0 auto; } }
+      margin: 0 auto; }
+  .main-navbar-block {
+    display: none; }
+  .white-navbar-display-main-page {
+    display: block; }
+  .navbar-header {
+    float: none; }
+  .navbar-left, .navbar-right {
+    float: none !important; }
+  .navbar-toggle {
+    display: block; }
+  .navbar-collapse {
+    border-top: 1px solid transparent;
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1); }
+  .navbar-fixed-top {
+    top: 0;
+    border-width: 0 0 1px; }
+  .navbar-collapse.collapse {
+    display: none !important; }
+  .navbar-nav {
+    float: none !important;
+    margin-top: 7.5px; }
+  .navbar-nav > li {
+    float: none; }
+  .navbar-nav > li > a {
+    padding-top: 10px;
+    padding-bottom: 10px; }
+  .collapse.in {
+    display: block !important; }
+  .mobile-button-aplly {
+    display: block !important; }
+  .white-navbar-button-margin {
+    display: none; } }
 
 @media only screen and (max-width: 992px) {
   body {
@@ -202,11 +234,7 @@
     width: 60%; }
   .step-second-block .step-information-block .bussines-image-block {
     width: 65%;
-    min-height: 390px; }
-  .main-navbar-block {
-    display: none; }
-  .white-navbar-display-main-page {
-    display: block; } }
+    min-height: 390px; } }
 
 @media only screen and (max-width: 788px) {
   .footer-column {

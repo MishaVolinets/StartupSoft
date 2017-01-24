@@ -9,6 +9,7 @@
     'ss.contact',
     'ss.callback',
     'ss.network',
+    'ss.testemonials',
     'ss.result',
     'ss.layout',
     'ss.common'])
@@ -25,9 +26,18 @@
         $urlRouterProvider.otherwise("/notfound");
 
     }])
-    .run(['$rootScope', '$state','$timeout', 'ngProgressFactory', function ($rootScope, $state,$timeout, ngProgressFactory) {
+    .run(['$rootScope', '$state','$timeout','$location', 'ngProgressFactory', function ($rootScope, $state, $timeout,$location, ngProgressFactory) {
         $rootScope.$state = $state;
 
+
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+                debugger;
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date(); a = s.createElement(o),
+            m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+        ga('create', 'UA-89198032-1', 'auto');
 
         var progressBar = ngProgressFactory.createInstance();
         progressBar.setColor('#4094ed');
@@ -41,6 +51,11 @@
             $timeout(function () {
                 progressBar.complete();
             });
+            var location = $location.url();
+            debugger;
+            ga('set', 'page',location);
+            ga('send', 'pageview');
+
         });
 
     }]);
