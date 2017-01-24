@@ -196,6 +196,7 @@
     <Content Include="app\Testemonials\testemonialsComponents.js" />
     <Content Include="app\Testemonials\views\testemonialsBody.html" />
     <Content Include="app\Testemonials\views\testemonialsPage.html" />
+    <Content Include="Content\img\3.png" />
     <Content Include="Content\img\Andrew.png" />
     <Content Include="Content\img\a_s_marketing.png" />
     <Content Include="Content\img\karen.jpg" />
