@@ -222,7 +222,9 @@
   .network-button-block .network-button-block-collumn {
     width: 100%;
     display: block;
-    margin-bottom: 25px; } }
+    margin-bottom: 25px; }
+  .about-our-team-collum {
+    width: 50%; } }
 
 @media only screen and (max-width: 992px) and (min-width: 776px) {
   .step-second-block .step-information-block .mvp-image-block {
