@@ -7,14 +7,6 @@
 
 .testimonials {
   margin-bottom: 40px; }
-  .testimonials:last-child:after {
-    content: '';
-    position: absolute;
-    bottom: 0;
-    border-bottom: 1px solid #E9E9E9;
-    width: 100%;
-    left: 0;
-    top: 195px; }
   .testimonials .testimonials-item {
     margin: 40px 20%;
     display: inline-block;
@@ -22,7 +14,7 @@
   .testimonials .testimonials-item:after {
     content: '';
     position: absolute;
-    bottom: 0;
+    bottom: -40px;
     border-bottom: 1px solid #E9E9E9;
     width: 100%;
     left: 0;
@@ -42,10 +34,10 @@
   .testimonials .testimonials-type {
     font-family: "MuseoSansMedium";
     color: #949494;
-    margin-bottom: 12px;
+    margin-bottom: 15px;
     display: inline-block; }
   .testimonials .testimonials-text {
-    font-size: 12px;
+    font-size: 14px;
     font-family: "MuseoSansLightItalic";
     color: #999999;
     line-height: 26px; }

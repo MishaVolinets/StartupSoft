@@ -3,7 +3,7 @@
       .config(['$stateProvider', function ($stateProvider) {
         $stateProvider
             .state('testemonials', {
-              url: '/testemonials',
+              url: '/testimonials',
               template: '<testemonials-page></testemonials-page>',
               data: {
                 pageTitle: 'Testemonials'

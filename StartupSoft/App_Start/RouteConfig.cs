@@ -17,7 +17,7 @@ namespace StartupSoft
 
       routes.MapRoute(
 name: "Testemonials",
-url: "testemonials",
+url: "testimonials",
 defaults: new { controller = "Home", action = "Index" }
 );
 
